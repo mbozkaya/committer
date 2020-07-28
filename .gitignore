@@ -1,0 +1,12 @@
+
+*.pdb
+*.dll
+*.v2
+.vs/Commiter/v16/.suo
+*.json
+*.props
+*.targets
+obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj/Debug/netcoreapp3.1/Commiter.AssemblyInfo.cs
+*.cache
+obj/Debug/netcoreapp3.1/Commiter.csproj.FileListAbsolute.txt
