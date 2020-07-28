@@ -20,7 +20,7 @@ namespace Commiter
         public static string PushBachtFileName = "push.bat";
         public static string RepositoryPath = "c:\\Repository\\Commiter\\readme.md";
         public static string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
-        public static int BeginDayOfYear = 1;
+        public static int BeginDayOfYear = 210;
         public static Dictionary<int, Dictionary<int, Model.TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
             {
                 {0, new Dictionary<int, TodayWord>
@@ -703,7 +703,7 @@ namespace Commiter
         public static TodayWord GetCommitCount(DateTime date)
         {
             int remainingDay = date.DayOfYear - BeginDayOfYear;
-            if (remainingDay < 1)
+            if (remainingDay < 0)
             {
                 remainingDay = 365 - BeginDayOfYear + date.DayOfYear;
             }
