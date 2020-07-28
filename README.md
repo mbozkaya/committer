@@ -1,3 +1,7 @@
 # Committer
  I love commit and push :)
- İnsan acizdir, muhtaçtır, fazla artistlik yapmamalıdır. -__*Ah Muhsin Ünlü*__ 28.07.2020 23:46:20 
+
+
+
+ #### 1. Hafta 1. Gün 
+ Acaba, doğduğu günden beri, bir defa olsun, hiçbir şeye güldü mü? -__*Yakup Kadri Karaosmanoğlu, Yaban*__ 29.07.2020 00:00:48 

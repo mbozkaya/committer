@@ -612,11 +612,11 @@ namespace Commiter
                 {
                     if (i == pastCommitCount)
                     {
-                        AppendChanges($"#### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
+                        await AppendChanges($"{Environment.NewLine} #### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
                     }
                     else
                     {
-                        AppendChanges();
+                        await AppendChanges();
                     }
                     Commit();
                 }
@@ -688,16 +688,18 @@ namespace Commiter
             return appRoot;
         }
 
-        public static async void AppendChanges(string head = "")
+        public static async Task<bool> AppendChanges(string head = "")
         {
             HttpClient client = new HttpClient();
             string response = await client.GetStringAsync(QuoteUrl);
 
             BirYudumKitap quote = JsonConvert.DeserializeObject<BirYudumKitap>(response);
 
-            string text = $"{(head != "" ? string.Concat(head, Environment.NewLine) : "")} {quote.quote} -__*{quote.source}*__ {DateTime.Now.ToLocalTime()} {Environment.NewLine}";
+            string text = $"{Environment.NewLine}{(head != "" ? string.Concat(head, Environment.NewLine) : "")} {quote.quote} -__*{quote.source}*__ {DateTime.Now.ToLocalTime()} {Environment.NewLine}";
 
             File.AppendAllText(Path.Combine(RepositoryPath), text);
+
+            return true;
         }
 
         public static TodayWord GetCommitCount(DateTime date)
