@@ -8,25 +8,621 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace Commiter
 {
     class Program
     {
         private static readonly HttpClient client = new HttpClient();
-        public static string BachtFileName { get; set; } = "commit.bat";
+        public static string CommitBachtFileName = "commit.bat";
+        public static string PushBachtFileName = "push.bat";
+        public static string RepositoryPath = "c:\\Repository\\Commiter\\readme.md";
+        public static string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
+        public static int BeginDayOfYear = 1;
+        public static Dictionary<int, Dictionary<int, Model.TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
+            {
+                {0, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {1,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="M"} },
+                        {2, new TodayWord{CommitCount=9,Word="M"} },
+                        {3, new TodayWord{CommitCount=9,Word="M"} },
+                        {4, new TodayWord{CommitCount=9,Word="M"} },
+                        {5, new TodayWord{CommitCount=9,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {2,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="M"} },
+                        {2, new TodayWord{CommitCount=3,Word="M"} },
+                        {3, new TodayWord{CommitCount=3,Word="M"} },
+                        {4, new TodayWord{CommitCount=3,Word="M"} },
+                        {5, new TodayWord{CommitCount=3,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {3,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="M"} },
+                        {2, new TodayWord{CommitCount=9,Word="M"} },
+                        {3, new TodayWord{CommitCount=3,Word="M"} },
+                        {4, new TodayWord{CommitCount=3,Word="M"} },
+                        {5, new TodayWord{CommitCount=3,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {4,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="M"} },
+                        {2, new TodayWord{CommitCount=9,Word="M"} },
+                        {3, new TodayWord{CommitCount=3,Word="M"} },
+                        {4, new TodayWord{CommitCount=3,Word="M"} },
+                        {5, new TodayWord{CommitCount=3,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {5,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="M"} },
+                        {2, new TodayWord{CommitCount=3,Word="M"} },
+                        {3, new TodayWord{CommitCount=3,Word="M"} },
+                        {4, new TodayWord{CommitCount=3,Word="M"} },
+                        {5, new TodayWord{CommitCount=3,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {6,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="M"} },
+                        {2, new TodayWord{CommitCount=9,Word="M"} },
+                        {3, new TodayWord{CommitCount=9,Word="M"} },
+                        {4, new TodayWord{CommitCount=9,Word="M"} },
+                        {5, new TodayWord{CommitCount=9,Word="M"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {7, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {8,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="B"} },
+                        {2, new TodayWord{CommitCount=9,Word="B"} },
+                        {3, new TodayWord{CommitCount=9,Word="B"} },
+                        {4, new TodayWord{CommitCount=9,Word="B"} },
+                        {5, new TodayWord{CommitCount=9,Word="B"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {9,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="B"} },
+                        {2, new TodayWord{CommitCount=3,Word="B"} },
+                        {3, new TodayWord{CommitCount=9,Word="B"} },
+                        {4, new TodayWord{CommitCount=3,Word="B"} },
+                        {5, new TodayWord{CommitCount=9,Word="B"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {10,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="B"} },
+                        {2, new TodayWord{CommitCount=3,Word="B"} },
+                        {3, new TodayWord{CommitCount=9,Word="B"} },
+                        {4, new TodayWord{CommitCount=3,Word="B"} },
+                        {5, new TodayWord{CommitCount=9,Word="B"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {11,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="B"} },
+                        {2, new TodayWord{CommitCount=9,Word="B"} },
+                        {3, new TodayWord{CommitCount=9,Word="B"} },
+                        {4, new TodayWord{CommitCount=9,Word="B"} },
+                        {5, new TodayWord{CommitCount=9,Word="B"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {12, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {13,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="O"} },
+                        {2, new TodayWord{CommitCount=9,Word="O"} },
+                        {3, new TodayWord{CommitCount=9,Word="O"} },
+                        {4, new TodayWord{CommitCount=9,Word="O"} },
+                        {5, new TodayWord{CommitCount=9,Word="O"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {14,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="O"} },
+                        {2, new TodayWord{CommitCount=3,Word="O"} },
+                        {3, new TodayWord{CommitCount=3,Word="O"} },
+                        {4, new TodayWord{CommitCount=3,Word="O"} },
+                        {5, new TodayWord{CommitCount=9,Word="O"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {15,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="O"} },
+                        {2, new TodayWord{CommitCount=3,Word="O"} },
+                        {3, new TodayWord{CommitCount=3,Word="O"} },
+                        {4, new TodayWord{CommitCount=3,Word="O"} },
+                        {5, new TodayWord{CommitCount=9,Word="O"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {16,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="O"} },
+                        {2, new TodayWord{CommitCount=3,Word="O"} },
+                        {3, new TodayWord{CommitCount=3,Word="O"} },
+                        {4, new TodayWord{CommitCount=3,Word="O"} },
+                        {5, new TodayWord{CommitCount=9,Word="O"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {17,new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="O"} },
+                        {2, new TodayWord{CommitCount=9,Word="O"} },
+                        {3, new TodayWord{CommitCount=9,Word="O"} },
+                        {4, new TodayWord{CommitCount=9,Word="O"} },
+                        {5, new TodayWord{CommitCount=9,Word="O"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {18, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {19, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Z"} },
+                        {2, new TodayWord{CommitCount=3,Word="Z"} },
+                        {3, new TodayWord{CommitCount=3,Word="Z"} },
+                        {4, new TodayWord{CommitCount=3,Word="Z"} },
+                        {5, new TodayWord{CommitCount=9,Word="Z"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {20, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Z"} },
+                        {2, new TodayWord{CommitCount=3,Word="Z"} },
+                        {3, new TodayWord{CommitCount=3,Word="Z"} },
+                        {4, new TodayWord{CommitCount=9,Word="Z"} },
+                        {5, new TodayWord{CommitCount=9,Word="Z"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {21, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Z"} },
+                        {2, new TodayWord{CommitCount=3,Word="Z"} },
+                        {3, new TodayWord{CommitCount=9,Word="Z"} },
+                        {4, new TodayWord{CommitCount=3,Word="Z"} },
+                        {5, new TodayWord{CommitCount=9,Word="Z"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {22, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Z"} },
+                        {2, new TodayWord{CommitCount=9,Word="Z"} },
+                        {3, new TodayWord{CommitCount=3,Word="Z"} },
+                        {4, new TodayWord{CommitCount=3,Word="Z"} },
+                        {5, new TodayWord{CommitCount=9,Word="Z"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {23, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Z"} },
+                        {2, new TodayWord{CommitCount=3,Word="Z"} },
+                        {3, new TodayWord{CommitCount=3,Word="Z"} },
+                        {4, new TodayWord{CommitCount=3,Word="Z"} },
+                        {5, new TodayWord{CommitCount=9,Word="Z"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {24, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {25, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="K"} },
+                        {2, new TodayWord{CommitCount=9,Word="K"} },
+                        {3, new TodayWord{CommitCount=9,Word="K"} },
+                        {4, new TodayWord{CommitCount=9,Word="K"} },
+                        {5, new TodayWord{CommitCount=9,Word="K"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {26, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="K"} },
+                        {2, new TodayWord{CommitCount=3,Word="K"} },
+                        {3, new TodayWord{CommitCount=9,Word="K"} },
+                        {4, new TodayWord{CommitCount=3,Word="K"} },
+                        {5, new TodayWord{CommitCount=3,Word="K"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {27, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="K"} },
+                        {2, new TodayWord{CommitCount=9,Word="K"} },
+                        {3, new TodayWord{CommitCount=3,Word="K"} },
+                        {4, new TodayWord{CommitCount=9,Word="K"} },
+                        {5, new TodayWord{CommitCount=3,Word="K"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {28, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="K"} },
+                        {2, new TodayWord{CommitCount=3,Word="K"} },
+                        {3, new TodayWord{CommitCount=3,Word="K"} },
+                        {4, new TodayWord{CommitCount=3,Word="K"} },
+                        {5, new TodayWord{CommitCount=9,Word="K"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {29, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {30, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=9,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=9,Word="A"} },
+                        {5, new TodayWord{CommitCount=9,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {31, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=3,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=3,Word="A"} },
+                        {5, new TodayWord{CommitCount=3,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {32, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=3,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=3,Word="A"} },
+                        {5, new TodayWord{CommitCount=3,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {33, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=9,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=9,Word="A"} },
+                        {5, new TodayWord{CommitCount=9,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {34, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {35, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Y"} },
+                        {2, new TodayWord{CommitCount=3,Word="Y"} },
+                        {3, new TodayWord{CommitCount=3,Word="Y"} },
+                        {4, new TodayWord{CommitCount=3,Word="Y"} },
+                        {5, new TodayWord{CommitCount=3,Word="Y"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {36, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="Y"} },
+                        {2, new TodayWord{CommitCount=9,Word="Y"} },
+                        {3, new TodayWord{CommitCount=3,Word="Y"} },
+                        {4, new TodayWord{CommitCount=3,Word="Y"} },
+                        {5, new TodayWord{CommitCount=3,Word="Y"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {37, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="Y"} },
+                        {2, new TodayWord{CommitCount=3,Word="Y"} },
+                        {3, new TodayWord{CommitCount=9,Word="Y"} },
+                        {4, new TodayWord{CommitCount=9,Word="Y"} },
+                        {5, new TodayWord{CommitCount=9,Word="Y"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                  {38, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word="Y"} },
+                        {2, new TodayWord{CommitCount=9,Word="Y"} },
+                        {3, new TodayWord{CommitCount=3,Word="Y"} },
+                        {4, new TodayWord{CommitCount=3,Word="Y"} },
+                        {5, new TodayWord{CommitCount=3,Word="Y"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                  {39, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="Y"} },
+                        {2, new TodayWord{CommitCount=3,Word="Y"} },
+                        {3, new TodayWord{CommitCount=3,Word="Y"} },
+                        {4, new TodayWord{CommitCount=3,Word="Y"} },
+                        {5, new TodayWord{CommitCount=3,Word="Y"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                  {40, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                  {41, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=9,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=9,Word="A"} },
+                        {5, new TodayWord{CommitCount=9,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {42, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=3,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=3,Word="A"} },
+                        {5, new TodayWord{CommitCount=3,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                {43, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=3,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=3,Word="A"} },
+                        {5, new TodayWord{CommitCount=3,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {44, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=9,Word="A"} },
+                        {2, new TodayWord{CommitCount=9,Word="A"} },
+                        {3, new TodayWord{CommitCount=9,Word="A"} },
+                        {4, new TodayWord{CommitCount=9,Word="A"} },
+                        {5, new TodayWord{CommitCount=9,Word="A"} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {45, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {46, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {47, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {48, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {49, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {50, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+                 {51, new Dictionary<int, TodayWord>
+                    {
+                        {0, new TodayWord{CommitCount=3,Word=""} },
+                        {1, new TodayWord{CommitCount=3,Word=""} },
+                        {2, new TodayWord{CommitCount=3,Word=""} },
+                        {3, new TodayWord{CommitCount=3,Word=""} },
+                        {4, new TodayWord{CommitCount=3,Word=""} },
+                        {5, new TodayWord{CommitCount=3,Word=""} },
+                        {6, new TodayWord{CommitCount=3,Word=""} },
+                    }
+                },
+            };
         static void Main(string[] args)
         {
-            //Get();
-            AppendChanges();
-            Commit();
+            Task<int> pastCommitCount = CheckGitHub();
+            var todayWord = GetCommitCount(DateTime.Now);
 
+            if (pastCommitCount.Result <= todayWord.CommitCount)
+            {
+                for (int i = pastCommitCount.Result; i < todayWord.CommitCount; i++)
+                {
+                    if (i == pastCommitCount.Result)
+                    {
+                        AppendChanges($"#### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
+                    }
+                    else
+                    {
+                        AppendChanges();
+                    }
+                    Commit();
+                }
+                Push();
+            }
 
             Console.ReadKey();
         }
 
-        public async static void Get()
+        public async static Task<int> CheckGitHub()
         {
+            int commitCount = 0;
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
@@ -41,18 +637,28 @@ namespace Commiter
 
             foreach (var push in pushEvents)
             {
-                push.payload.commits.ForEach(f2 => Console.WriteLine(f2.message));
+                commitCount += push.payload.commits.Count;
             }
 
+            return commitCount;
         }
 
         public static void Commit()
         {
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{BachtFileName}";
+            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
             proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
             //proc.StartInfo.Arguments = "start /wait commit.bat ";
             proc.StartInfo.Arguments = "test123 ";
+            proc.Start();
+
+        }
+
+        public static void Push()
+        {
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
+            proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
             proc.Start();
 
         }
@@ -67,7 +673,6 @@ namespace Commiter
 
         }
 
-
         public static string GetApplicationRoot()
         {
             var exePath = Path.GetDirectoryName(System.Reflection
@@ -81,9 +686,34 @@ namespace Commiter
         //{
         //}
 
-        public static void AppendChanges()
+        public static async void AppendChanges(string head = "")
         {
-            File.AppendAllText(@"c:\Repository\javascript30.com-Tutorials\readme.md", $"text content {DateTime.Now.ToShortTimeString()}" + Environment.NewLine);
+            HttpClient client = new HttpClient();
+            string response = await client.GetStringAsync(QuoteUrl);
+
+            BirYudumKitap quote = JsonConvert.DeserializeObject<BirYudumKitap>(response);
+
+            string text = $"{(head != "" ? string.Concat(head, Environment.NewLine) : "")} {quote.quote} -__*{quote.source}*__ {DateTime.Now.ToLocalTime()} {Environment.NewLine}";
+
+            File.AppendAllText(Path.Combine(RepositoryPath), text);
+        }
+
+        public static TodayWord GetCommitCount(DateTime date)
+        {
+            int remainingDay = date.DayOfYear - BeginDayOfYear;
+            if (remainingDay < 1)
+            {
+                remainingDay = 365 - BeginDayOfYear + date.DayOfYear;
+            }
+
+            int week = remainingDay / 7;
+
+            Dictionary<int, TodayWord> MBOZKAYAWeekly = MBOZKAYAYearly[week];
+            TodayWord MBOZKAYADaily = MBOZKAYAWeekly[(int)date.DayOfWeek];
+            MBOZKAYADaily.Day = remainingDay;
+            MBOZKAYADaily.Week = week + 1;
+
+            return MBOZKAYADaily;
         }
     }
 }

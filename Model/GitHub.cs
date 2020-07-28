@@ -64,4 +64,20 @@ namespace Commiter.Model
             public string email { get; set; }
         }
     }
+
+    public class BirYudumKitap
+    {
+        public int id { get; set; }
+        public string source { get; set; }
+        public string quote { get; set; }
+        public string random { get; set; }
+    }
+
+    public class TodayWord
+    {
+        public string Word { get; set; }
+        public int CommitCount { get; set; }
+        public int Day { get; set; }
+        public int Week { get; set; }
+    }
 }
