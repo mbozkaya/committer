@@ -1,5 +1,6 @@
 ﻿using Commiter.Model;
 using Newtonsoft.Json;
+using Nito.AsyncEx;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -595,16 +596,21 @@ namespace Commiter
                     }
                 },
             };
+
         static void Main(string[] args)
         {
-            Task<int> pastCommitCount = CheckGitHub();
+            AsyncContext.Run(() => MainAsync(args));
+        }
+        static async void MainAsync(string[] args)
+        {
+            int pastCommitCount = await CheckGitHub();
             var todayWord = GetCommitCount(DateTime.Now);
 
-            if (pastCommitCount.Result <= todayWord.CommitCount)
+            if (pastCommitCount <= todayWord.CommitCount)
             {
-                for (int i = pastCommitCount.Result; i < todayWord.CommitCount; i++)
+                for (int i = pastCommitCount; i < todayWord.CommitCount; i++)
                 {
-                    if (i == pastCommitCount.Result)
+                    if (i == pastCommitCount)
                     {
                         AppendChanges($"#### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
                     }
@@ -681,10 +687,6 @@ namespace Commiter
             var appRoot = appPathMatcher.Match(exePath).Value;
             return appRoot;
         }
-
-        //public static int GetCommitCount()
-        //{
-        //}
 
         public static async void AppendChanges(string head = "")
         {
