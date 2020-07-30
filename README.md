@@ -21,3 +21,5 @@
 
  #### 1. Hafta 4. Gün 
  İçimizde olanın ancak küçük bir kısmını yaşayabiliyorsak gerisine ne oluyor? -__*Pascal Mercier, Lizbon'a Gece Treni*__ 30.07.2020 10:40:09 
+
+ Belki de susmak gerçeği anlatmanın tek yoluydu. -__*İhsan Oktay Anar*__ 30.07.2020 10:40:10 
