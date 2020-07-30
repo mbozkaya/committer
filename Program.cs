@@ -20,7 +20,7 @@ namespace Commiter
         public static string PushBachtFileName = "push.bat";
         public static string RepositoryPath = "c:\\Repository\\Commiter\\readme.md";
         public static string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
-        public static int BeginDayOfYear = 210;
+        public static int BeginDayOfYear = 208;
         public static Dictionary<int, Dictionary<int, Model.TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
             {
                 {0, new Dictionary<int, TodayWord>
@@ -618,7 +618,7 @@ namespace Commiter
                     {
                         await AppendChanges();
                     }
-                    Commit();
+                    Commit($"{todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
                 }
                 Push();
             }
@@ -649,13 +649,13 @@ namespace Commiter
             return commitCount;
         }
 
-        public static void Commit()
+        public static void Commit(string commitNote)
         {
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
             proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
             proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
             //proc.StartInfo.Arguments = "start /wait commit.bat ";
-            proc.StartInfo.Arguments = "test123 ";
+            proc.StartInfo.Arguments = commitNote;
             proc.Start();
 
         }
