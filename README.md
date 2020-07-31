@@ -31,3 +31,5 @@
  Beni tanımlamak, benim sınırlarımı çizmektir. Hemen önünüzde aslım varken, bir tanımla, bana gölgem kadar bile benzemeyen ideal bir suretimi vermeye neden gayret edeyim ki? -__*Erasmus, Deliliğe Övgü*__ 31.07.2020 19:04:29 
 
  Ömründeki bu gecikmiş ilkbaharın her gülünü dermek istiyordu. -__*Amin Maalouf, Semerkand*__ 31.07.2020 19:04:29 
+
+ Hiçbir şey değişmeden kalmıyor, diye düşündü. Benliğini geride bırakabilecekmiş gibi hızlı hızlı çeviriyordu pedalları. Çok fazla şey görmüştü. -__*Madeleine Thien, Bundan Sonra Her Şey Biziz*__ 31.07.2020 19:04:30 
