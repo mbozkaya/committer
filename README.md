@@ -25,3 +25,7 @@
  Belki de susmak gerçeği anlatmanın tek yoluydu. -__*İhsan Oktay Anar*__ 30.07.2020 10:40:10 
 
  Kulak asmayalım erdemin demir gibi sert olması gerektiğini söyleyenlere. -__*Cicero, De Amicitia 49*__ 30.07.2020 10:40:10 
+
+
+ #### 1. Hafta 5. Gün 
+ Beni tanımlamak, benim sınırlarımı çizmektir. Hemen önünüzde aslım varken, bir tanımla, bana gölgem kadar bile benzemeyen ideal bir suretimi vermeye neden gayret edeyim ki? -__*Erasmus, Deliliğe Övgü*__ 31.07.2020 19:04:29 
