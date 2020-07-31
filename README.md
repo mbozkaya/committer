@@ -29,3 +29,5 @@
 
  #### 1. Hafta 5. Gün 
  Beni tanımlamak, benim sınırlarımı çizmektir. Hemen önünüzde aslım varken, bir tanımla, bana gölgem kadar bile benzemeyen ideal bir suretimi vermeye neden gayret edeyim ki? -__*Erasmus, Deliliğe Övgü*__ 31.07.2020 19:04:29 
+
+ Ömründeki bu gecikmiş ilkbaharın her gülünü dermek istiyordu. -__*Amin Maalouf, Semerkand*__ 31.07.2020 19:04:29 
