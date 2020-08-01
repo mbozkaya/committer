@@ -18,7 +18,7 @@ namespace Commiter
         private static readonly HttpClient client = new HttpClient();
         public static string CommitBachtFileName = "commit.bat";
         public static string PushBachtFileName = "push.bat";
-        public static string RepositoryPath = "c:\\Repository\\Commiter\\readme.md";
+        public static string RepositoryPath = "c:\\Repository\\Committer\\readme.md";
         public static string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
         public static int BeginDayOfYear = 208;
         public static Dictionary<int, Dictionary<int, Model.TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
@@ -603,26 +603,32 @@ namespace Commiter
         }
         static async void MainAsync(string[] args)
         {
-            int pastCommitCount = await CheckGitHub();
-            var todayWord = GetCommitCount(DateTime.Now);
-
-            if (pastCommitCount <= todayWord.CommitCount)
+            try
             {
-                for (int i = pastCommitCount; i < todayWord.CommitCount; i++)
-                {
-                    if (i == pastCommitCount)
-                    {
-                        await AppendChanges($"{Environment.NewLine} #### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
-                    }
-                    else
-                    {
-                        await AppendChanges();
-                    }
-                    Commit($"{todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
-                }
-                Push();
-            }
+                int pastCommitCount = await CheckGitHub();
+                var todayWord = GetCommitCount(DateTime.Now);
 
+                if (pastCommitCount <= todayWord.CommitCount)
+                {
+                    for (int i = pastCommitCount; i < todayWord.CommitCount; i++)
+                    {
+                        if (i == pastCommitCount)
+                        {
+                            await AppendChanges($"{Environment.NewLine} #### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
+                        }
+                        else
+                        {
+                            await AppendChanges();
+                        }
+                        Commit($"{todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
+                    }
+                    Push();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
             Console.ReadKey();
         }
 

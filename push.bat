@@ -1,6 +1,6 @@
 
 cd/
-cd Repository/Commiter
+cd Repository/Committer
 dir
 git push --force
 exit

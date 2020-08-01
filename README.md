@@ -12,14 +12,6 @@
 
 
  #### 1. Hafta 4. Gün 
- Yarının, içinde henüz hiçbir hata olmayan yepyeni bir gün olduğunu düşünmek ne güzeldir. -__*Montgomery*__ 30.07.2020 10:27:02 
-
- - Niçin seversin Güntülü? - Sevginin niçini olmaz ki efendim. -__*Nihâl Atsız, Ruh Adam*__ 30.07.2020 10:27:02 
-
- Hiçbir mutluluk sonsuza kadar sürmediği gibi, mutsuzluk da geçicidir. -__*José Saramago, Körlük*__ 30.07.2020 10:27:02 
-
-
- #### 1. Hafta 4. Gün 
  İçimizde olanın ancak küçük bir kısmını yaşayabiliyorsak gerisine ne oluyor? -__*Pascal Mercier, Lizbon'a Gece Treni*__ 30.07.2020 10:40:09 
 
  Belki de susmak gerçeği anlatmanın tek yoluydu. -__*İhsan Oktay Anar*__ 30.07.2020 10:40:10 
@@ -33,3 +25,8 @@
  Ömründeki bu gecikmiş ilkbaharın her gülünü dermek istiyordu. -__*Amin Maalouf, Semerkand*__ 31.07.2020 19:04:29 
 
  Hiçbir şey değişmeden kalmıyor, diye düşündü. Benliğini geride bırakabilecekmiş gibi hızlı hızlı çeviriyordu pedalları. Çok fazla şey görmüştü. -__*Madeleine Thien, Bundan Sonra Her Şey Biziz*__ 31.07.2020 19:04:30 
+
+
+
+ #### 1. Hafta 6. Gün 
+ Benim için sevmek bir başka insanın vücudundan, ruhundan bir parça hükmüne girmek, onunla beraber gülüp ağlamak, ıstıraplarını paylaşmak demekti. -__*Reşat Nuri Güntekin, Acımak*__ 1.08.2020 21:31:15 

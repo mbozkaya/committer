@@ -1,5 +1,5 @@
 cd/
-cd Repository/Commiter
+cd Repository/Committer
 dir
 git status
 git add .
