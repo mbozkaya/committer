@@ -32,3 +32,5 @@
  Benim için sevmek bir başka insanın vücudundan, ruhundan bir parça hükmüne girmek, onunla beraber gülüp ağlamak, ıstıraplarını paylaşmak demekti. -__*Reşat Nuri Güntekin, Acımak*__ 1.08.2020 21:31:15 
 
  En kuvvetli insanların da zayıf anları olur. -__*Hüseyin Nihal Atsız , Ruh Adam*__ 1.08.2020 21:31:15 
+
+ Esasen ben doğrudan kaçamam, çünkü o benimle beraber yaşıyor! -__*Maksim Gorki, Ana*__ 1.08.2020 21:31:16 
