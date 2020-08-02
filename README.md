@@ -40,3 +40,5 @@
  Siz neden korkuyorsunuz? Oynayacağınız rol kısa, seyircilerse sizin gibi ölümlüdür. -__*Andre Maurois, Yaşama Sanatı*__ 2.08.2020 19:52:30 
 
  Her gün yüzlerce tren binlerce hikâye getiriyor, binlerce hikâye alıp gidiyordu. -__*Sait Faik Abasıyanık*__ 2.08.2020 19:52:31 
+
+ Edebiyat her zaman hayatı anlamama olanak sağlamıştır, ancak işte tam da bu yüzden beni hayatın dışında bırakmıştır. -__*Enrique Vila-Matas, Montano Hastalığı*__ 2.08.2020 19:52:31 
