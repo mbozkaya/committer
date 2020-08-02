@@ -34,3 +34,9 @@
  En kuvvetli insanların da zayıf anları olur. -__*Hüseyin Nihal Atsız , Ruh Adam*__ 1.08.2020 21:31:15 
 
  Esasen ben doğrudan kaçamam, çünkü o benimle beraber yaşıyor! -__*Maksim Gorki, Ana*__ 1.08.2020 21:31:16 
+
+
+ #### 2. Hafta 7. Gün 
+ Siz neden korkuyorsunuz? Oynayacağınız rol kısa, seyircilerse sizin gibi ölümlüdür. -__*Andre Maurois, Yaşama Sanatı*__ 2.08.2020 19:52:30 
+
+ Her gün yüzlerce tren binlerce hikâye getiriyor, binlerce hikâye alıp gidiyordu. -__*Sait Faik Abasıyanık*__ 2.08.2020 19:52:31 
