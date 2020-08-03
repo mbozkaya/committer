@@ -52,3 +52,5 @@
  İnsanların kim oldukları sadece adlarından mı anlaşılır sanıyorsun ? Bakışlarından, yürüyüşünden, görüntüsünden, kullandıkları ses tonundan tanırsın onları . -__*Amin Maalouf, Semerkand*__ 3.08.2020 12:09:06 
 
  Günün anlamı olması için gece, konuşmanın anlamı olması için sessizlik, barışın anlamı olması için savaş gereklidir. -__*Amin Maalouf, Afrikalı Leo*__ 3.08.2020 12:09:07 
+
+ Denemek için bir kedinin süte susamasını istiyorsan,ona sütü karşıdan göstermelisin Jacques! -__*Charles Dickens, İki Şehrin Hikâyesi*__ 3.08.2020 12:09:07 
