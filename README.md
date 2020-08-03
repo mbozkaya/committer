@@ -56,3 +56,5 @@
  Denemek için bir kedinin süte susamasını istiyorsan,ona sütü karşıdan göstermelisin Jacques! -__*Charles Dickens, İki Şehrin Hikâyesi*__ 3.08.2020 12:09:07 
 
  Gerçek mutluluk, yavaş yavaş, azar azar gelir. -__*Cengiz Aytmatov, Toprak Ana*__ 3.08.2020 12:09:08 
+
+ Ne tuhaf, insanın yüreği de meğerse dişleri gibi kamaşırmış. -__*Refik Halid Karay*__ 3.08.2020 12:09:08 
