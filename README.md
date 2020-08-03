@@ -58,3 +58,5 @@
  Gerçek mutluluk, yavaş yavaş, azar azar gelir. -__*Cengiz Aytmatov, Toprak Ana*__ 3.08.2020 12:09:08 
 
  Ne tuhaf, insanın yüreği de meğerse dişleri gibi kamaşırmış. -__*Refik Halid Karay*__ 3.08.2020 12:09:08 
+
+ Hayat, herkesin yaşadığı, kimsenin yaşamaktan hoşlanmadığı komedya. -__*Cemil Meriç, Bu Ülke*__ 3.08.2020 12:09:08 
