@@ -42,3 +42,9 @@
  Her gün yüzlerce tren binlerce hikâye getiriyor, binlerce hikâye alıp gidiyordu. -__*Sait Faik Abasıyanık*__ 2.08.2020 19:52:31 
 
  Edebiyat her zaman hayatı anlamama olanak sağlamıştır, ancak işte tam da bu yüzden beni hayatın dışında bırakmıştır. -__*Enrique Vila-Matas, Montano Hastalığı*__ 2.08.2020 19:52:31 
+
+
+ #### 2. Hafta 8. Gün M Harfi Oluşturuluyor.
+ Kitaplar bitiyor ama insan okumayı hiç bırakmıyor, tıpkı ölümün kesin bir olgu olduğunu bile bile yaşamayı sürdürdüğü gibi. -__*Roberto Bolaño*__ 3.08.2020 12:09:06 
+
+ Bizler umduklarıyla değil, bulduklarıyla yetinmesi gereken kişileriz. -__*Stefan Zweig, Satranç*__ 3.08.2020 12:09:06 
