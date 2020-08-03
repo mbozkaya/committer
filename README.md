@@ -54,3 +54,5 @@
  Günün anlamı olması için gece, konuşmanın anlamı olması için sessizlik, barışın anlamı olması için savaş gereklidir. -__*Amin Maalouf, Afrikalı Leo*__ 3.08.2020 12:09:07 
 
  Denemek için bir kedinin süte susamasını istiyorsan,ona sütü karşıdan göstermelisin Jacques! -__*Charles Dickens, İki Şehrin Hikâyesi*__ 3.08.2020 12:09:07 
+
+ Gerçek mutluluk, yavaş yavaş, azar azar gelir. -__*Cengiz Aytmatov, Toprak Ana*__ 3.08.2020 12:09:08 
