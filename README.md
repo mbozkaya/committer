@@ -48,3 +48,7 @@
  Kitaplar bitiyor ama insan okumayı hiç bırakmıyor, tıpkı ölümün kesin bir olgu olduğunu bile bile yaşamayı sürdürdüğü gibi. -__*Roberto Bolaño*__ 3.08.2020 12:09:06 
 
  Bizler umduklarıyla değil, bulduklarıyla yetinmesi gereken kişileriz. -__*Stefan Zweig, Satranç*__ 3.08.2020 12:09:06 
+
+ İnsanların kim oldukları sadece adlarından mı anlaşılır sanıyorsun ? Bakışlarından, yürüyüşünden, görüntüsünden, kullandıkları ses tonundan tanırsın onları . -__*Amin Maalouf, Semerkand*__ 3.08.2020 12:09:06 
+
+ Günün anlamı olması için gece, konuşmanın anlamı olması için sessizlik, barışın anlamı olması için savaş gereklidir. -__*Amin Maalouf, Afrikalı Leo*__ 3.08.2020 12:09:07 
