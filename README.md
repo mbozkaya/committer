@@ -68,3 +68,5 @@
  Hayatı çok ciddiye alıyorsunuz Dickie. Oysa ki bir oyundan başka bir şey değil hayat. -__*André Maurois, İklimler*__ 5.08.2020 00:22:18 
 
  Çünkü mutluluk hiçbir zaman hareketsiz değildir, diye yanıt verdi. Çünkü mutluluk, tasa içinde yaşarken anlık bir dinlenmedir. -__*André Maurois, İklimler*__ 5.08.2020 00:22:19 
+
+ İnsanoğlu bu, kimin içinde ne var bilinmez. -__*Yaşar Kemal, İnce Memed 1 *__ 5.08.2020 00:22:19 
