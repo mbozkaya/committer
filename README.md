@@ -72,3 +72,5 @@
  İnsanoğlu bu, kimin içinde ne var bilinmez. -__*Yaşar Kemal, İnce Memed 1 *__ 5.08.2020 00:22:19 
 
  Hatta öyle insanlar var ki kendilerine bile anlatamazlar kendileriyle ilgili şeyleri. -__*Dostoyevski, Yeraltından Notlar*__ 5.08.2020 00:22:19 
+
+ Mesafelerin değerini bil, en yakınındaki en yabancıdır sana. -__*Murat Uyurkulak*__ 5.08.2020 00:22:20 
