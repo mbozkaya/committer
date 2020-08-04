@@ -62,3 +62,7 @@
  Hayat, herkesin yaşadığı, kimsenin yaşamaktan hoşlanmadığı komedya. -__*Cemil Meriç, Bu Ülke*__ 3.08.2020 12:09:08 
 
  Düşündüğüm için ben var değilim, sizler varsınız. Sizler benim zihnimdeki düşüncelerden ibaretsiniz. -__*İhsan Oktay Anar, Puslu Kıtalar Atlası*__ 3.08.2020 12:09:09 
+
+
+ #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
+ Hayatı çok ciddiye alıyorsunuz Dickie. Oysa ki bir oyundan başka bir şey değil hayat. -__*André Maurois, İklimler*__ 5.08.2020 00:22:18 
