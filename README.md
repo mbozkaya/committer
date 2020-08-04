@@ -74,3 +74,5 @@
  Hatta öyle insanlar var ki kendilerine bile anlatamazlar kendileriyle ilgili şeyleri. -__*Dostoyevski, Yeraltından Notlar*__ 5.08.2020 00:22:19 
 
  Mesafelerin değerini bil, en yakınındaki en yabancıdır sana. -__*Murat Uyurkulak*__ 5.08.2020 00:22:20 
+
+ İnsan ancak yüreğiyle bakarsa bir şeyi iyi görür, iyi anlar. Gözler bir şeyin özünü göremez. -__*Antoine De Saint-Exupéry, Küçük Prens*__ 5.08.2020 00:22:20 
