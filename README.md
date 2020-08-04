@@ -78,3 +78,5 @@
  İnsan ancak yüreğiyle bakarsa bir şeyi iyi görür, iyi anlar. Gözler bir şeyin özünü göremez. -__*Antoine De Saint-Exupéry, Küçük Prens*__ 5.08.2020 00:22:20 
 
  Uçmak istiyorsan, seni aşağı çeken her şeyi bırak. -__*Toni Morrison*__ 5.08.2020 00:22:20 
+
+ Cesaret; korkuya direnmek ve korkuya hâkim olmaktır, korkmamak demek değildir. -__*Mark Twain, Ahmak Wilson'ın Trajedisi*__ 5.08.2020 00:22:21 
