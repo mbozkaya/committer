@@ -88,3 +88,5 @@
  En iyisini sonraya saklamayın. Yarının ne getireceğini bilemezsiniz. -__*Paulo Coelho, Simyacı*__ 6.08.2020 18:31:32 
 
  Ne dersin, şunu delice sevdiğime akıllılık etmemiş miyim? -__*İbrahim Şinasi, Şair Evlenmesi*__ 6.08.2020 18:31:32 
+
+ Gülleri ve bülbülleri göremeyip gün boyu evinde oturan adam dünyanın kendisini hiç görebilir mi? -__*İhsan Oktay Anar, Puslu Kıtalar Atlası*__ 6.08.2020 18:31:33 
