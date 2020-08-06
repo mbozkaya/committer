@@ -100,3 +100,5 @@
  Yalnızsan yalanlar sana ilaç gibi gelir, iftiralar senin için bir terapidir. -__*Murat Menteş, Dublörün Dilemması*__ 6.08.2020 18:31:34 
 
  Yanılgılarımızın çoğu, düşüneceğimiz yerde duygulanmak ve duygulanacağımız yerde düşünmekten doğar. -__*Murat Menteş, Dublörün Dilemması*__ 6.08.2020 18:31:34 
+
+ Hayallerimizde kendimiz olmanın yüküne yer yok, diye düşündüm. -__*Tim Parks, Kader*__ 6.08.2020 18:31:35 
