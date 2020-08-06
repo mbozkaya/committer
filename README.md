@@ -94,3 +94,5 @@
  Hayatlarımız hayallerimizle paralel biçimde ilerler, diye düşündüm. Ama asla tam olarak bağdaşmaz. -__*Tim Parks, Kader*__ 6.08.2020 18:31:33 
 
  Ruhu bedenden ayırmak, ölmeyi öğrenmekten başka bir şey değildir. -__*Cicero, Tusculanae Disputationes 2*__ 6.08.2020 18:31:33 
+
+ Bekçisi olmayan geceler denk geliyor bana, / çaresiz bekliyorum. -__*Didem Mamak, Ah'lar Ağacı*__ 6.08.2020 18:31:34 
