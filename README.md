@@ -82,3 +82,7 @@
  Cesaret; korkuya direnmek ve korkuya hâkim olmaktır, korkmamak demek değildir. -__*Mark Twain, Ahmak Wilson'ın Trajedisi*__ 5.08.2020 00:22:21 
 
  Beni tanımlamak, benim sınırlarımı çizmektir. Hemen önünüzde aslım varken, bir tanımla, bana gölgem kadar bile benzemeyen ideal bir suretimi vermeye neden gayret edeyim ki? -__*Erasmus, Deliliğe Övgü*__ 5.08.2020 00:22:21 
+
+
+ #### 2. Hafta 11. Gün M Harfi Oluşturuluyor.
+ En iyisini sonraya saklamayın. Yarının ne getireceğini bilemezsiniz. -__*Paulo Coelho, Simyacı*__ 6.08.2020 18:31:32 
