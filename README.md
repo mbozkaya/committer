@@ -102,3 +102,7 @@
  Yanılgılarımızın çoğu, düşüneceğimiz yerde duygulanmak ve duygulanacağımız yerde düşünmekten doğar. -__*Murat Menteş, Dublörün Dilemması*__ 6.08.2020 18:31:34 
 
  Hayallerimizde kendimiz olmanın yüküne yer yok, diye düşündüm. -__*Tim Parks, Kader*__ 6.08.2020 18:31:35 
+
+
+ #### 3. Hafta 14. Gün 
+ Sevgi ölçülerinin ne çirkinlik ne de güzellikle alakası vardır. -__*Halide Edip Adıvar, Sinekli Bakkal*__ 9.08.2020 19:52:58 
