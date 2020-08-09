@@ -108,3 +108,5 @@
  Sevgi ölçülerinin ne çirkinlik ne de güzellikle alakası vardır. -__*Halide Edip Adıvar, Sinekli Bakkal*__ 9.08.2020 19:52:58 
 
  Ulan bir milimden daha yakın olup da nasıl tarifsiz uzaklıkta olabiliyor iki insan? -__*İlhami Algör, Fakat Müzeyyen Bu Derin Bir Tutku*__ 9.08.2020 19:52:58 
+
+ Bazı şeyleri en yakın dostlarınıza bile söyleyemezsiniz ve bazen en yakın dostlarınız zaten biliyorlardır. -__*Stephen King, Rüya Avcısı*__ 9.08.2020 19:52:58 
