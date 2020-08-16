@@ -1,27 +1,28 @@
-﻿using Commiter.Model;
+﻿using CommitterService.Model;
 using Newtonsoft.Json;
-using Nito.AsyncEx;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using static CommitterService.Model.GeneralDto;
+using static CommitterService.Model.Github;
 
-namespace Commiter
+namespace CommitterService
 {
-    class Program
+    public class Commit
     {
-        private static readonly HttpClient client = new HttpClient();
-        public static string CommitBachtFileName = "commit.bat";
-        public static string PushBachtFileName = "push.bat";
-        public static string RepositoryPath = "c:\\Repository\\Committer\\readme.md";
-        public static string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
-        public static int BeginDayOfYear = 208;
-        public static Dictionary<int, Dictionary<int, Model.TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
+        private readonly HttpClient client = new HttpClient();
+        private string CommitBachtFileName = "Batch\\commit.bat";
+        private string PushBachtFileName = "Batch\\push.bat";
+        private string RepositoryPath = "c:\\Repository\\Committer\\readme.md";
+        private string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
+        private int BeginDayOfYear = 229;
+        private Dictionary<int, Dictionary<int, TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
             {
                 {0, new Dictionary<int, TodayWord>
                     {
@@ -597,11 +598,12 @@ namespace Commiter
                 },
             };
 
-        static void Main(string[] args)
+        public Commit()
         {
-            AsyncContext.Run(() => MainAsync(args));
+            Init();
         }
-        static async void MainAsync(string[] args)
+
+        public async void Init()
         {
             try
             {
@@ -614,13 +616,13 @@ namespace Commiter
                     {
                         if (i == pastCommitCount)
                         {
-                            await AppendChanges($"{Environment.NewLine} #### {todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
+                            await AppendChanges($"{Environment.NewLine} #### {todayWord.Week}. Hafta {todayWord.Day + 1}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")}");
                         }
                         else
                         {
                             await AppendChanges();
                         }
-                        Commit($"{todayWord.Week}. Hafta {todayWord.Day}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
+                        CommitChanges($"{todayWord.Week}. Hafta {todayWord.Day + 1}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
                     }
                     Push();
                 }
@@ -629,33 +631,18 @@ namespace Commiter
             {
                 Console.WriteLine(ex);
             }
-            Console.ReadKey();
         }
 
-        public async static Task<int> CheckGitHub()
+        private string GetApplicationRoot()
         {
-            int commitCount = 0;
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-            client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
-
-            var stringTask = client.GetStringAsync("https://api.github.com/users/mbozkaya/events");
-
-            var msg = await stringTask;
-            List<GitHub.GetEvent> deserialized = JsonConvert.DeserializeObject<List<GitHub.GetEvent>>(msg);
-
-            var pushEvents = deserialized.Where(w => w.type == "PushEvent" && w.CreatedDate.Date == DateTime.Now.Date).ToList();
-
-            foreach (var push in pushEvents)
-            {
-                commitCount += push.payload.commits.Count;
-            }
-
-            return commitCount;
+            var exePath = Path.GetDirectoryName(System.Reflection
+                              .Assembly.GetExecutingAssembly().CodeBase);
+            Regex appPathMatcher = new Regex(@"(?<!fil)[A-Za-z]:\\+[\S\s]*?(?=\\+bin)");
+            var appRoot = appPathMatcher.Match(exePath).Value;
+            return appRoot;
         }
 
-        public static void Commit(string commitNote)
+        public void CommitChanges(string commitNote)
         {
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
             proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
@@ -666,7 +653,7 @@ namespace Commiter
 
         }
 
-        public static void Push()
+        public void Push()
         {
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
             proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
@@ -675,26 +662,7 @@ namespace Commiter
 
         }
 
-        public static void Test()
-        {
-            System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\test.bat";
-            proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
-            proc.StartInfo.Arguments = $"start /wait {"test"} {"24324"}";
-            proc.Start();
-
-        }
-
-        public static string GetApplicationRoot()
-        {
-            var exePath = Path.GetDirectoryName(System.Reflection
-                              .Assembly.GetExecutingAssembly().CodeBase);
-            Regex appPathMatcher = new Regex(@"(?<!fil)[A-Za-z]:\\+[\S\s]*?(?=\\+bin)");
-            var appRoot = appPathMatcher.Match(exePath).Value;
-            return appRoot;
-        }
-
-        public static async Task<bool> AppendChanges(string head = "")
+        public async Task<bool> AppendChanges(string head = "")
         {
             HttpClient client = new HttpClient();
             string response = await client.GetStringAsync(QuoteUrl);
@@ -708,7 +676,7 @@ namespace Commiter
             return true;
         }
 
-        public static TodayWord GetCommitCount(DateTime date)
+        public TodayWord GetCommitCount(DateTime date)
         {
             int remainingDay = date.DayOfYear - BeginDayOfYear;
             if (remainingDay < 0)
@@ -725,5 +693,29 @@ namespace Commiter
 
             return MBOZKAYADaily;
         }
+
+        public async Task<int> CheckGitHub()
+        {
+            int commitCount = 0;
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+            client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+
+            var stringTask = client.GetStringAsync("https://api.github.com/users/mbozkaya/events");
+
+            var msg = await stringTask;
+            List<GetEvent> deserialized = JsonConvert.DeserializeObject<List<GetEvent>>(msg);
+
+            var pushEvents = deserialized.Where(w => w.type == "PushEvent" && w.CreatedDate.Date == DateTime.Now.Date).ToList();
+
+            foreach (var push in pushEvents)
+            {
+                commitCount += push.payload.commits.Count;
+            }
+
+            return commitCount;
+        }
+
     }
 }
