@@ -12,3 +12,5 @@
 
  #### 1. Hafta 2. Gün 
  Her şey şimdikinden bin kat daha da hızlansa, insanın kendine yakınlığı ve uzaklığıyla kaim olan mesafesi hiçbir zaman kapanmayacak. -__*Haydar Ergülen, Vefa Bazen Unutmaktır*__ 17.08.2020 23:18:53 
+
+ ...ve tutkularımız bizim kulplarımızdır ne de olsa, en kolay ve en çabuk onlarla ele geçiriliriz. -__*Hasan Ali Toptaş, Ölü Zaman Gezginleri*__ 17.08.2020 23:20:24 
