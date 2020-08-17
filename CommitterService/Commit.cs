@@ -622,7 +622,7 @@ namespace CommitterService
                         {
                             await AppendChanges();
                         }
-                        CommitChanges($"{todayWord.Week}. Hafta {todayWord.Day + 1}. Gün {(todayWord.Word != "" ? string.Concat(todayWord.Word, " Harfi Oluşturuluyor.") : "")} {i + 1}. Commit");
+                        CommitChanges($"{todayWord.Week}.-Hafta-{todayWord.Day + 1}.-Gün-{(todayWord.Word != "" ? string.Concat(todayWord.Word, "Harfi_Oluşturuluyor.") : "")}-{i + 1}.-Commit");
                     }
                     Push();
                 }

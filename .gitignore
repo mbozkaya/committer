@@ -16,5 +16,4 @@ obj/
 Properties/
 Commiter.csproj.user
 *.sqlite
-*.csproj
 *.user

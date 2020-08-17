@@ -15,7 +15,7 @@ namespace CommitterService
         private readonly ILogger<Worker> _logger;
 
         public IServiceScopeFactory _serviceScopeFactory { get; private set; }
-        private string Schedule => "*/60 * * * * *"; //Runs every 60 seconds
+        private string Schedule => "* 10 23 * * *"; //Runs every 60 seconds
         private CrontabSchedule _schedule;
         private DateTime _nextRun;
 
@@ -40,7 +40,7 @@ namespace CommitterService
                     new Commit();
                     _nextRun = _schedule.GetNextOccurrence(DateTime.Now);
                 }
-                await Task.Delay(10000, stoppingToken);
+                await Task.Delay(1000 * 60, stoppingToken);
             }
         }
 
