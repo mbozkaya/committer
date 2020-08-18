@@ -22,3 +22,5 @@
  Bir gönül yapamazsan, yıkıp viran eyleme. -__*Yunus Emre*__ 18.08.2020 18:15:20 
 
  Sessizlik, ekseriyetle, karşılaştığım insanlardan daha fazla şey öğretiyor bana. -__*Frédéric Gros, Yürümenin Felsefesi*__ 18.08.2020 18:15:20 
+
+ ...elim seninkine değdikçe büyüdü, küçücük ellerin var, yüreğinde hiç atmıyor, sen misin? -__*Leyla Erbil, Gecede*__ 18.08.2020 18:15:20 
