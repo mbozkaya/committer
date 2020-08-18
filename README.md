@@ -16,3 +16,7 @@
  ...ve tutkularımız bizim kulplarımızdır ne de olsa, en kolay ve en çabuk onlarla ele geçiriliriz. -__*Hasan Ali Toptaş, Ölü Zaman Gezginleri*__ 17.08.2020 23:20:24 
 
  Bulunduğumuz yer, üstünde durulacak kadar sağlam değil. -__*Charles Bukowski, Seraphita*__ 17.08.2020 23:20:28 
+
+
+ #### 1. Hafta 3. Gün 
+ Bir gönül yapamazsan, yıkıp viran eyleme. -__*Yunus Emre*__ 18.08.2020 18:15:20 
