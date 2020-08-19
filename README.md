@@ -28,3 +28,5 @@
 
  #### 1. Hafta 4. Gün 
  Artık yaşamak istemiyorum Olric. Onların istediği gibi yaşamak istemiyorum. -__*Oğuz Atay, Tutunamayanlar*__ 19.08.2020 18:00:14 
+
+ Anormal olan şeyleri nasıl da normalmiş gibi görmeye başlamıştık. -__*Sinan Akyüz, İncir Kuşları*__ 19.08.2020 18:00:16 
