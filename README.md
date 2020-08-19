@@ -24,3 +24,7 @@
  Sessizlik, ekseriyetle, karşılaştığım insanlardan daha fazla şey öğretiyor bana. -__*Frédéric Gros, Yürümenin Felsefesi*__ 18.08.2020 18:15:20 
 
  ...elim seninkine değdikçe büyüdü, küçücük ellerin var, yüreğinde hiç atmıyor, sen misin? -__*Leyla Erbil, Gecede*__ 18.08.2020 18:15:20 
+
+
+ #### 1. Hafta 4. Gün 
+ Artık yaşamak istemiyorum Olric. Onların istediği gibi yaşamak istemiyorum. -__*Oğuz Atay, Tutunamayanlar*__ 19.08.2020 18:00:14 

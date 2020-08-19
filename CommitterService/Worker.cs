@@ -15,7 +15,7 @@ namespace CommitterService
         private readonly ILogger<Worker> _logger;
 
         public IServiceScopeFactory _serviceScopeFactory { get; private set; }
-        private string Schedule => "* 14 18 * * *"; //Runs every 60 seconds
+        private string Schedule => "* 58 17 * * *"; //Runs every 60 seconds
         private CrontabSchedule _schedule;
         private DateTime _nextRun;
 
