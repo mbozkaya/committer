@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace CommitterService
 
         public SlackService()
         {
-            string token = "xoxp-1296544803815-1323913382657-1312486540226-73ed7111778b8581458746f47a3528a5";
+            string token = ConfigurationManager.AppSettings.Get("SlackToken");
             _url = "https://slack.com/api/chat.postMessage";
             _client = new HttpClient();
             _client.DefaultRequestHeaders.Authorization =

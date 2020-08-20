@@ -17,3 +17,4 @@ Properties/
 Commiter.csproj.user
 *.sqlite
 *.user
+*.config
