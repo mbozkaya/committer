@@ -38,3 +38,5 @@
  Şu günlerde insanlar her şeyin fiyatını biliyor, fakat hiçbir şeyin değerini bilmiyorlar. -__*Oscar Wilde, Dorian Gray'in Portresi*__ 20.08.2020 14:51:54 
 
  Ben bir kuş değilim ve hiçbir ağ beni kapana kıstıramaz: Ben kendi bağımsız iradesine sahip, özgür bir kadınım! -__*Charlotte Brontë, Jane Eyre*__ 20.08.2020 14:51:55 
+
+ Sevmek ne kadar çok çaba gerektirmekteydi ve buna karşılık nefret için neredeyse hiçbir şeye ihtiyaç yoktu. -__*Alper Canıgüz, Kan ve Gül*__ 20.08.2020 14:51:55 
