@@ -646,39 +646,56 @@ namespace CommitterService
 
         public void CommitChanges(string commitNote)
         {
-            _serviceSlack.WriteMessage($"Current Directory {Directory.GetCurrentDirectory()}");
-            _serviceSlack.WriteMessage($"App Root {GetApplicationRoot()}");
-
-            System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
-            proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
-            //proc.StartInfo.Arguments = "start /wait commit.bat ";
-            proc.StartInfo.Arguments = commitNote;
-            proc.Start();
-
+            try
+            {
+                System.Diagnostics.Process proc = new System.Diagnostics.Process();
+                proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
+                proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
+                //proc.StartInfo.Arguments = "start /wait commit.bat ";
+                proc.StartInfo.Arguments = commitNote;
+                proc.Start();
+            }
+            catch (Exception ex)
+            {
+                _serviceSlack.Slack(ex);
+            }
         }
 
         public void Push()
         {
-            System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
-            proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
-            proc.Start();
-
+            try
+            {
+                System.Diagnostics.Process proc = new System.Diagnostics.Process();
+                proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
+                proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
+                proc.Start();
+            }
+            catch (Exception ex)
+            {
+                _serviceSlack.Slack(ex);
+            }
         }
 
         public async Task<bool> AppendChanges(string head = "")
         {
-            HttpClient client = new HttpClient();
-            string response = await client.GetStringAsync(QuoteUrl);
+            try
+            {
+                HttpClient client = new HttpClient();
+                string response = await client.GetStringAsync(QuoteUrl);
 
-            BirYudumKitap quote = JsonConvert.DeserializeObject<BirYudumKitap>(response);
+                BirYudumKitap quote = JsonConvert.DeserializeObject<BirYudumKitap>(response);
 
-            string text = $"{Environment.NewLine}{(head != "" ? string.Concat(head, Environment.NewLine) : "")} {quote.quote} -__*{quote.source}*__ {DateTime.Now.ToLocalTime()} {Environment.NewLine}";
+                string text = $"{Environment.NewLine}{(head != "" ? string.Concat(head, Environment.NewLine) : "")} {quote.quote} -__*{quote.source}*__ {DateTime.Now.ToLocalTime()} {Environment.NewLine}";
 
-            File.AppendAllText(Path.Combine(RepositoryPath), text);
+                File.AppendAllText(Path.Combine(RepositoryPath), text);
 
-            return true;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _serviceSlack.Slack(ex);
+                return false;
+            }            
         }
 
         public TodayWord GetCommitCount(DateTime date)
@@ -702,23 +719,29 @@ namespace CommitterService
         public async Task<int> CheckGitHub()
         {
             int commitCount = 0;
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-            client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
-
-            var stringTask = client.GetStringAsync("https://api.github.com/users/mbozkaya/events");
-
-            var msg = await stringTask;
-            List<GetEvent> deserialized = JsonConvert.DeserializeObject<List<GetEvent>>(msg);
-
-            var pushEvents = deserialized.Where(w => w.type == "PushEvent" && w.CreatedDate.Date == DateTime.Now.Date).ToList();
-
-            foreach (var push in pushEvents)
+            try
             {
-                commitCount += push.payload.commits.Count;
-            }
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+                client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
+                var stringTask = client.GetStringAsync("https://api.github.com/users/mbozkaya/events");
+
+                var msg = await stringTask;
+                List<GetEvent> deserialized = JsonConvert.DeserializeObject<List<GetEvent>>(msg);
+
+                var pushEvents = deserialized.Where(w => w.type == "PushEvent" && w.CreatedDate.Date == DateTime.Now.Date).ToList();
+
+                foreach (var push in pushEvents)
+                {
+                    commitCount += push.payload.commits.Count;
+                }
+            }
+            catch (Exception ex)
+            {
+                _serviceSlack.Slack(ex);
+            }
             return commitCount;
         }
 
