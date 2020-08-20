@@ -32,3 +32,9 @@
  Anormal olan şeyleri nasıl da normalmiş gibi görmeye başlamıştık. -__*Sinan Akyüz, İncir Kuşları*__ 19.08.2020 18:00:16 
 
  Makarasından hızla boşalan bir iplikti hayat. -__*İsmail Saymaz*__ 19.08.2020 18:00:18 
+
+
+ #### 1. Hafta 5. Gün 
+ Şu günlerde insanlar her şeyin fiyatını biliyor, fakat hiçbir şeyin değerini bilmiyorlar. -__*Oscar Wilde, Dorian Gray'in Portresi*__ 20.08.2020 14:51:54 
+
+ Ben bir kuş değilim ve hiçbir ağ beni kapana kıstıramaz: Ben kendi bağımsız iradesine sahip, özgür bir kadınım! -__*Charlotte Brontë, Jane Eyre*__ 20.08.2020 14:51:55 

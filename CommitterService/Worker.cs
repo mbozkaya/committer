@@ -15,16 +15,19 @@ namespace CommitterService
         private readonly ILogger<Worker> _logger;
 
         public IServiceScopeFactory _serviceScopeFactory { get; private set; }
-        private string Schedule => "* 58 17 * * *"; //Runs every 60 seconds
+        private string Schedule => "* 50 14 * * *"; //Runs every 60 seconds
         private CrontabSchedule _schedule;
         private DateTime _nextRun;
+        public ISlackService _serviceSlack;
 
-        public Worker(ILogger<Worker> logger, IServiceScopeFactory serviceScopeFactory)
+        public Worker(ILogger<Worker> logger, IServiceScopeFactory serviceScopeFactory, ISlackService serviceSlack)
         {
+
             _logger = logger;
             _serviceScopeFactory = serviceScopeFactory;
             _schedule = CrontabSchedule.Parse(Schedule, new CrontabSchedule.ParseOptions { IncludingSeconds = true });
             _nextRun = _schedule.GetNextOccurrence(DateTime.Now);
+            _serviceSlack = serviceSlack;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -37,7 +40,7 @@ namespace CommitterService
                 if (now > _nextRun)
                 {
                     _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                    new Commit();
+                    new Commit(_serviceSlack);
                     _nextRun = _schedule.GetNextOccurrence(DateTime.Now);
                 }
                 await Task.Delay(1000 * 60, stoppingToken);
