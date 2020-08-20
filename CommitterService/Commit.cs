@@ -597,9 +597,11 @@ namespace CommitterService
                     }
                 },
             };
-
-        public Commit()
+        private ISlackService _serviceSlack;
+        public Commit(ISlackService serviceSlack)
         {
+            _serviceSlack = serviceSlack;
+
             Init();
         }
 
@@ -644,6 +646,9 @@ namespace CommitterService
 
         public void CommitChanges(string commitNote)
         {
+            _serviceSlack.WriteMessage($"Current Directory {Directory.GetCurrentDirectory()}");
+            _serviceSlack.WriteMessage($"App Root {GetApplicationRoot()}");
+
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
             proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{CommitBachtFileName}";
             proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";

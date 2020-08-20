@@ -20,6 +20,7 @@ namespace CommitterService
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
+                    services.AddSingleton<ISlackService, SlackService>();
                 });
     }
 }
