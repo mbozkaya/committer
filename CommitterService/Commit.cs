@@ -654,6 +654,7 @@ namespace CommitterService
                 //proc.StartInfo.Arguments = "start /wait commit.bat ";
                 proc.StartInfo.Arguments = commitNote;
                 proc.Start();
+                _serviceSlack.WriteMessage(commitNote);
             }
             catch (Exception ex)
             {
@@ -669,6 +670,7 @@ namespace CommitterService
                 proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
                 proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
                 proc.Start();
+                _serviceSlack.WriteMessage("Pushed");
             }
             catch (Exception ex)
             {

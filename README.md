@@ -49,3 +49,7 @@
  Sonu gelmiş insanlığın yargısını düşünmekten kendimi alamıyor, umutsuzluk içinde sessizce bekleyip duruyordum. -__*Elio Vittorini, Sicilya Konuşmaları*__ 21.08.2020 14:51:45 
 
  Geride kalanlar, sadece kendilerinden vazgeçildiğini düşünmektense, gidenin koca bir hayata tümden boş verdiğine inanmayı yeğlerlerdi. -__*Nermin Yıldırım, Rüyalar Anlatılmaz*__ 21.08.2020 14:51:45 
+
+
+ #### 1. Hafta 6. Gün 
+ Lambalar eğri, aynalar akrep meleği, zaman çarpılmış atın son hayali. -__*Sezai Karakoç*__ 21.08.2020 15:18:54 
