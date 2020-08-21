@@ -47,3 +47,5 @@
  Her insan gördüğü rüyanın tabiridir. -__*Sigmund Freud, Mutlu Olma İhtimalimiz*__ 21.08.2020 14:51:43 
 
  Sonu gelmiş insanlığın yargısını düşünmekten kendimi alamıyor, umutsuzluk içinde sessizce bekleyip duruyordum. -__*Elio Vittorini, Sicilya Konuşmaları*__ 21.08.2020 14:51:45 
+
+ Geride kalanlar, sadece kendilerinden vazgeçildiğini düşünmektense, gidenin koca bir hayata tümden boş verdiğine inanmayı yeğlerlerdi. -__*Nermin Yıldırım, Rüyalar Anlatılmaz*__ 21.08.2020 14:51:45 
