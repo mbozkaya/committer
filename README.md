@@ -41,3 +41,9 @@
  Ben bir kuş değilim ve hiçbir ağ beni kapana kıstıramaz: Ben kendi bağımsız iradesine sahip, özgür bir kadınım! -__*Charlotte Brontë, Jane Eyre*__ 20.08.2020 14:51:55 
 
  Sevmek ne kadar çok çaba gerektirmekteydi ve buna karşılık nefret için neredeyse hiçbir şeye ihtiyaç yoktu. -__*Alper Canıgüz, Kan ve Gül*__ 20.08.2020 14:51:55 
+
+
+ #### 1. Hafta 6. Gün 
+ Her insan gördüğü rüyanın tabiridir. -__*Sigmund Freud, Mutlu Olma İhtimalimiz*__ 21.08.2020 14:51:43 
+
+ Sonu gelmiş insanlığın yargısını düşünmekten kendimi alamıyor, umutsuzluk içinde sessizce bekleyip duruyordum. -__*Elio Vittorini, Sicilya Konuşmaları*__ 21.08.2020 14:51:45 
