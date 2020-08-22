@@ -53,3 +53,7 @@
 
  #### 1. Hafta 6. Gün 
  Lambalar eğri, aynalar akrep meleği, zaman çarpılmış atın son hayali. -__*Sezai Karakoç*__ 21.08.2020 15:18:54 
+
+
+ #### 1. Hafta 7. Gün 
+ Acılar sonsuz oluyor, sevinçlerin ise bir sınırı var. -__*Balzac*__ 22.08.2020 23:24:55 
