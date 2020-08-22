@@ -59,3 +59,5 @@
  Acılar sonsuz oluyor, sevinçlerin ise bir sınırı var. -__*Balzac*__ 22.08.2020 23:24:55 
 
  Mağlûbum; fakat düşmanla göğüs göğüse çarpıştıktan, son kurşunu attıktan sonra yere serilen bir asker gibi mağlûbum. -__*Reşat Nuri Güntekin, Acımak*__ 22.08.2020 23:25:00 
+
+ Çok eskiden rastlaşacaktık. -__*Sait Faik Abasıyanık*__ 22.08.2020 23:25:00 
