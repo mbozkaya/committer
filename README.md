@@ -65,3 +65,7 @@
 
  #### 2. Hafta 8. Gün 
  Akıl her şeyin efendisi ve kraliçesidir. -__*Cicero, Tusculanae Disputationes 3*__ 23.08.2020 21:56:24 
+
+ Birini arayıp beklemek, onun varlığından başka her şeye kapatıyordu insanı. Beklenenin sesinden başkasına sağır, arananın suretinden ötesine kör ediyordu. -__*Nermin Yıldırım, Rüyalar Anlatılmaz*__ 23.08.2020 21:56:24 
+
+ Sevdiğin kişiye asla iyi geceler dilememelisin. Uykunun aranıza gireceğini düşündürürsün. -__*Alper Canıgüz, Cehennem Çiçeği*__ 23.08.2020 21:56:25 
