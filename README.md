@@ -69,3 +69,7 @@
  Birini arayıp beklemek, onun varlığından başka her şeye kapatıyordu insanı. Beklenenin sesinden başkasına sağır, arananın suretinden ötesine kör ediyordu. -__*Nermin Yıldırım, Rüyalar Anlatılmaz*__ 23.08.2020 21:56:24 
 
  Sevdiğin kişiye asla iyi geceler dilememelisin. Uykunun aranıza gireceğini düşündürürsün. -__*Alper Canıgüz, Cehennem Çiçeği*__ 23.08.2020 21:56:25 
+
+
+ #### 2. Hafta 8. Gün 
+ Onu uzun bir süredir tanıyormuşum gibi geliyordu ve sanki ondan önce ne bir şey biliyordum ne de bir şey yaşamıştım. -__*Ivan Sergeyeviç Turgenyev, İlk Aşk*__ 23.08.2020 22:01:14 
