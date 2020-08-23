@@ -61,3 +61,7 @@
  Mağlûbum; fakat düşmanla göğüs göğüse çarpıştıktan, son kurşunu attıktan sonra yere serilen bir asker gibi mağlûbum. -__*Reşat Nuri Güntekin, Acımak*__ 22.08.2020 23:25:00 
 
  Çok eskiden rastlaşacaktık. -__*Sait Faik Abasıyanık*__ 22.08.2020 23:25:00 
+
+
+ #### 2. Hafta 8. Gün 
+ Akıl her şeyin efendisi ve kraliçesidir. -__*Cicero, Tusculanae Disputationes 3*__ 23.08.2020 21:56:24 
