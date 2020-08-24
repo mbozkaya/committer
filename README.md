@@ -89,3 +89,5 @@
  Saklanabileceğim, saklanıp hiçbir şey yapmak zorunda kalmayacağım bir yer istiyordum. -__*Charles Bukowski, Ekmek Arası*__ 24.08.2020 23:05:00 
 
  Değişiklik olsun diye, kafanızla mücadele edin. Öğrenmeye dirense de kafa denen şey iyi bir şeydir. -__*Harper Lee*__ 24.08.2020 23:05:13 
+
+ Sevgili Dost, insan her zaman aynı şeyleri görürse, bunu yaşamanın tabii bir parçası gibi görmeye başlarmış, aykırı olsa bile. -__*A. Ali Ural, Posta Kutusundaki Mızıka*__ 24.08.2020 23:05:27 
