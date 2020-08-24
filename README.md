@@ -77,3 +77,5 @@
 
  #### 2. Hafta 9. Gün M Harfi Oluşturuluyor.
  Kitap bir limandı benim için. Kitaplarda yaşadım ve kitaplardaki insanları sokaktakilerden daha çok sevdim. -__*Cemil Meriç, Bu Ülke*__ 24.08.2020 23:03:51 
+
+ Ne olurdu şu yaldızlı diplomayı,annemin çamaşır yıkamaktan çatlamış, şişmiş zavallı ellerine verebilseydim ? -__*Reşat Nuri Güntekin, Acımak*__ 24.08.2020 23:04:04 
