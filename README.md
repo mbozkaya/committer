@@ -87,3 +87,5 @@
  İnsan kırılıp incinmelerini toplayıp onlardan suskunluk yapıyor. -__*Muhyiddin Şekûr*__ 24.08.2020 23:04:44 
 
  Saklanabileceğim, saklanıp hiçbir şey yapmak zorunda kalmayacağım bir yer istiyordum. -__*Charles Bukowski, Ekmek Arası*__ 24.08.2020 23:05:00 
+
+ Değişiklik olsun diye, kafanızla mücadele edin. Öğrenmeye dirense de kafa denen şey iyi bir şeydir. -__*Harper Lee*__ 24.08.2020 23:05:13 
