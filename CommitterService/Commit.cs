@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using static CommitterService.Model.GeneralDto;
 using static CommitterService.Model.Github;
@@ -626,7 +627,7 @@ namespace CommitterService
                         }
                         CommitChanges($"{todayWord.Week}.-Hafta-{todayWord.Day + 1}.-Gün-{(todayWord.Word != "" ? string.Concat(todayWord.Word, "Harfi_Oluşturuluyor.") : "")}-{i + 1}.-Commit");
                     }
-                    Push();
+                    _serviceSlack.WriteMessage("Pushed");
                 }
             }
             catch (Exception ex)
@@ -655,6 +656,8 @@ namespace CommitterService
                 proc.StartInfo.Arguments = commitNote;
                 proc.Start();
                 _serviceSlack.WriteMessage(commitNote);
+                Thread.Sleep(TimeSpan.FromSeconds(3));
+                Push();
             }
             catch (Exception ex)
             {
@@ -670,7 +673,7 @@ namespace CommitterService
                 proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
                 proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
                 proc.Start();
-                _serviceSlack.WriteMessage("Pushed");
+                Thread.Sleep(TimeSpan.FromSeconds(10));
             }
             catch (Exception ex)
             {

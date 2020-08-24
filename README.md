@@ -73,3 +73,7 @@
 
  #### 2. Hafta 8. Gün 
  Onu uzun bir süredir tanıyormuşum gibi geliyordu ve sanki ondan önce ne bir şey biliyordum ne de bir şey yaşamıştım. -__*Ivan Sergeyeviç Turgenyev, İlk Aşk*__ 23.08.2020 22:01:14 
+
+
+ #### 2. Hafta 9. Gün M Harfi Oluşturuluyor.
+ Kitap bir limandı benim için. Kitaplarda yaşadım ve kitaplardaki insanları sokaktakilerden daha çok sevdim. -__*Cemil Meriç, Bu Ülke*__ 24.08.2020 23:03:51 
