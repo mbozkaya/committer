@@ -81,3 +81,5 @@
  Ne olurdu şu yaldızlı diplomayı,annemin çamaşır yıkamaktan çatlamış, şişmiş zavallı ellerine verebilseydim ? -__*Reşat Nuri Güntekin, Acımak*__ 24.08.2020 23:04:04 
 
  Söyledim ya, bir parça huzursuzum. -__*Harper Lee, Bülbülü Öldürmek*__ 24.08.2020 23:04:18 
+
+ Gözyaşlarını zamansız kullanıyorsun ihtiyar. Ya gerçekten gerektiğinde gözlerinde yaş kalmazsa? -__*Maksim Gorki, Ana*__ 24.08.2020 23:04:31 
