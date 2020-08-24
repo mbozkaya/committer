@@ -85,3 +85,5 @@
  Gözyaşlarını zamansız kullanıyorsun ihtiyar. Ya gerçekten gerektiğinde gözlerinde yaş kalmazsa? -__*Maksim Gorki, Ana*__ 24.08.2020 23:04:31 
 
  İnsan kırılıp incinmelerini toplayıp onlardan suskunluk yapıyor. -__*Muhyiddin Şekûr*__ 24.08.2020 23:04:44 
+
+ Saklanabileceğim, saklanıp hiçbir şey yapmak zorunda kalmayacağım bir yer istiyordum. -__*Charles Bukowski, Ekmek Arası*__ 24.08.2020 23:05:00 
