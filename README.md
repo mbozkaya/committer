@@ -131,3 +131,5 @@
  Gülleri ve bülbülleri göremeyip gün boyu evinde oturan adam dünyanın kendisini hiç görebilir mi? -__*İhsan Oktay Anar, Puslu Kıtalar Atlası*__ 25.08.2020 14:53:07 
 
  Bıçağın ucundaydı insanların hafızası. / İnsan unutandır / ve insan unutulmaya mahkûm olandır. -__*Didem Mamak, Ah'lar Ağacı*__ 25.08.2020 14:53:21 
+
+ Bu gece en hüzünlü şiiri yazabilirim. -__*Pablo Neruda*__ 25.08.2020 14:53:34 
