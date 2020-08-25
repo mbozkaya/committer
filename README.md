@@ -111,3 +111,5 @@
  Ne yazık ki, uğursuz olaylar, insanları en çok ümide sarıldıkları zamanlarda hırpalamaktan haz alır. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 14:51:46 
 
  Ve oturdu mu bir masaya hakkını verir çay içmenin. -__*Cahit Zarifoğlu, İşaret Çocukları*__ 25.08.2020 14:51:58 
+
+ Bir saplantıya kapılmış kişi, iyileşmiş olsa da her zaman tekrar hastalanma riski taşır. -__*Stefan Zweig, Satranç*__ 25.08.2020 14:52:00 
