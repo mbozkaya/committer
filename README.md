@@ -93,3 +93,7 @@
  Sevgili Dost, insan her zaman aynı şeyleri görürse, bunu yaşamanın tabii bir parçası gibi görmeye başlarmış, aykırı olsa bile. -__*A. Ali Ural, Posta Kutusundaki Mızıka*__ 24.08.2020 23:05:27 
 
  Bütün güzel laflardan ve hoş insanlardan sıkılan bu mahlukları, birbirlerinin sessiz mevcudiyeti, yorgunluk verecek kadar doyuruyordu. -__*Sabahattin Ali, Kuyucaklı Yusuf*__ 24.08.2020 23:05:40 
+
+
+ #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
+ Ses tonlamalarına takılırdım. Sesler her şeyi söylerdi. -__*İlhami Algör, Fakat Müzeyyen Bu Derin Bir Tutku*__ 25.08.2020 14:50:48 
