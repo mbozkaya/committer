@@ -111,3 +111,5 @@
  Yeni bir sessizlik başladı, bu kez daha da uzun sürdü. Zaman olağanüstü bir yavaşlıkta seyrediyordu. -__*Enrique Vila-Matas*__ 25.08.2020 18:05:45 
 
  Şu yakınma ayrıntılı yazılmış bir kitap kadar anlamlıydı. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:46 
+
+ İnsanın hiç unutamadığı gerçekler var Louis. Mezar taşının mermerine kazınmış gibi, kalplerimize kazınan gerçekler. -__*Jean-Christophe Grangé*__ 25.08.2020 18:05:46 
