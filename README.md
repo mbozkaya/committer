@@ -117,3 +117,7 @@
  Akşam karanlığı çöktü mü insan sabahın taze soluğunu boş yere arar. -__*Machado de Assis, Mezarımdan Yazıyorum*__ 25.08.2020 14:52:12 
 
  Birini eleştirmeye kalktığında, herkesin seninle aynı imkânlarla dünyaya gelmemiş olduğunu aklına getir. -__*F. Scott Fitzgerald*__ 25.08.2020 14:52:13 
+
+ Sadece o kadarını diyebildim. Bazı acıların çünkü, cümlesi olmaz. Sözcükler, kimi manaların yükünü kaldıramaz. -__*Nermin Yıldırım*__ 25.08.2020 14:52:26 
+
+ Ne diyeyim, dilerim ihtiyacı olan birine gidiyordur bizden çaldıkları umut! Dünya adaletsiz çocuk! Dünya zorba. -__*Nâzım Hikmet Ran*__ 25.08.2020 14:52:26 
