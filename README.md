@@ -125,3 +125,5 @@
  Kelime; kelime acıtır. Hacmi ağırlığı, dokusu vardır. Tene değer ve keser. Öldürebilir de. -__*Nazan Bekiroğlu, Kelime Defteri*__ 25.08.2020 14:52:40 
 
  Hayallerimizde kendimiz olmanın yüküne yer yok. -__*Tim Parks, Kader*__ 25.08.2020 14:52:40 
+
+ İlgiler gündelik giysiyler gibi eski inceliksiz. -__*Gülten Akın, Kestım Kara Saçlarımı*__ 25.08.2020 14:52:54 
