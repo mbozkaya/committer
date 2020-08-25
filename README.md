@@ -95,41 +95,7 @@
  Bütün güzel laflardan ve hoş insanlardan sıkılan bu mahlukları, birbirlerinin sessiz mevcudiyeti, yorgunluk verecek kadar doyuruyordu. -__*Sabahattin Ali, Kuyucaklı Yusuf*__ 24.08.2020 23:05:40 
 
 
- #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
- Ses tonlamalarına takılırdım. Sesler her şeyi söylerdi. -__*İlhami Algör, Fakat Müzeyyen Bu Derin Bir Tutku*__ 25.08.2020 14:50:48 
-
- Gülümsedim, ama hayalim yine aynı ciddi ve kederli ifadeyi korudu. -__*Albert Camus, Yabancı*__ 25.08.2020 14:51:02 
-
- Yağmurlu bir havanın ardından birdenbire önümüze çıkan bir gökkuşağına yetişebilmek gibi beyhude bir telaşa döndü hayat. -__*Tarık Tufan, Kraliçenin Perileri*__ 25.08.2020 14:51:16 
-
- Ta ruhundan kopan ses, hep aynı kelimeyi tekrarlıyordu: Boşuna! -__*Victor Hugo*__ 25.08.2020 14:51:30 
-
- Sanki ben her akşam onunlaymışım gibi bir yalnızlık duyuyorum. -__*Sait Faik Abasıyanık*__ 25.08.2020 14:51:44 
 
 
  #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
- Ne yazık ki, uğursuz olaylar, insanları en çok ümide sarıldıkları zamanlarda hırpalamaktan haz alır. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 14:51:46 
-
- Ve oturdu mu bir masaya hakkını verir çay içmenin. -__*Cahit Zarifoğlu, İşaret Çocukları*__ 25.08.2020 14:51:58 
-
- Bir saplantıya kapılmış kişi, iyileşmiş olsa da her zaman tekrar hastalanma riski taşır. -__*Stefan Zweig, Satranç*__ 25.08.2020 14:52:00 
-
- Akşam karanlığı çöktü mü insan sabahın taze soluğunu boş yere arar. -__*Machado de Assis, Mezarımdan Yazıyorum*__ 25.08.2020 14:52:12 
-
- Birini eleştirmeye kalktığında, herkesin seninle aynı imkânlarla dünyaya gelmemiş olduğunu aklına getir. -__*F. Scott Fitzgerald*__ 25.08.2020 14:52:13 
-
- Sadece o kadarını diyebildim. Bazı acıların çünkü, cümlesi olmaz. Sözcükler, kimi manaların yükünü kaldıramaz. -__*Nermin Yıldırım*__ 25.08.2020 14:52:26 
-
- Ne diyeyim, dilerim ihtiyacı olan birine gidiyordur bizden çaldıkları umut! Dünya adaletsiz çocuk! Dünya zorba. -__*Nâzım Hikmet Ran*__ 25.08.2020 14:52:26 
-
- Kelime; kelime acıtır. Hacmi ağırlığı, dokusu vardır. Tene değer ve keser. Öldürebilir de. -__*Nazan Bekiroğlu, Kelime Defteri*__ 25.08.2020 14:52:40 
-
- Hayallerimizde kendimiz olmanın yüküne yer yok. -__*Tim Parks, Kader*__ 25.08.2020 14:52:40 
-
- İlgiler gündelik giysiyler gibi eski inceliksiz. -__*Gülten Akın, Kestım Kara Saçlarımı*__ 25.08.2020 14:52:54 
-
- Gülleri ve bülbülleri göremeyip gün boyu evinde oturan adam dünyanın kendisini hiç görebilir mi? -__*İhsan Oktay Anar, Puslu Kıtalar Atlası*__ 25.08.2020 14:53:07 
-
- Bıçağın ucundaydı insanların hafızası. / İnsan unutandır / ve insan unutulmaya mahkûm olandır. -__*Didem Mamak, Ah'lar Ağacı*__ 25.08.2020 14:53:21 
-
- Bu gece en hüzünlü şiiri yazabilirim. -__*Pablo Neruda*__ 25.08.2020 14:53:34 
+ İnsanları yüzlerinden okumaya bayılıyorum. -__*Mustafa Kutlu, Ya Tahammül Ya Sefer*__ 25.08.2020 18:05:37 

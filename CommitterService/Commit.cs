@@ -628,6 +628,7 @@ namespace CommitterService
                         CommitChanges($"{todayWord.Week}.-Hafta-{todayWord.Day + 1}.-Gün-{(todayWord.Word != "" ? string.Concat(todayWord.Word, "Harfi_Oluşturuluyor.") : "")}-{i + 1}.-Commit");
                     }
                     _serviceSlack.WriteMessage("Pushed");
+                    Push();
                 }
             }
             catch (Exception ex)
@@ -656,8 +657,7 @@ namespace CommitterService
                 proc.StartInfo.Arguments = commitNote;
                 proc.Start();
                 _serviceSlack.WriteMessage(commitNote);
-                Thread.Sleep(TimeSpan.FromSeconds(3));
-                Push();
+                //Push();
             }
             catch (Exception ex)
             {
@@ -673,7 +673,7 @@ namespace CommitterService
                 proc.StartInfo.FileName = $"{GetApplicationRoot()}\\{PushBachtFileName}";
                 proc.StartInfo.WorkingDirectory = $"{Directory.GetCurrentDirectory()}";
                 proc.Start();
-                Thread.Sleep(TimeSpan.FromSeconds(10));
+                //Thread.Sleep(TimeSpan.FromSeconds(10));
             }
             catch (Exception ex)
             {
