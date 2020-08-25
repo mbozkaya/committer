@@ -105,3 +105,7 @@
  Ta ruhundan kopan ses, hep aynı kelimeyi tekrarlıyordu: Boşuna! -__*Victor Hugo*__ 25.08.2020 14:51:30 
 
  Sanki ben her akşam onunlaymışım gibi bir yalnızlık duyuyorum. -__*Sait Faik Abasıyanık*__ 25.08.2020 14:51:44 
+
+
+ #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
+ Ne yazık ki, uğursuz olaylar, insanları en çok ümide sarıldıkları zamanlarda hırpalamaktan haz alır. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 14:51:46 
