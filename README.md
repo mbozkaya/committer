@@ -99,3 +99,5 @@
 
  #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
  İnsanları yüzlerinden okumaya bayılıyorum. -__*Mustafa Kutlu, Ya Tahammül Ya Sefer*__ 25.08.2020 18:05:37 
+
+ Çevre değişmedikçe, insanın değişmesine imkân yoktur. -__*Yakup Kadri Karaosmanoğlu, Yaban*__ 25.08.2020 18:05:43 
