@@ -103,3 +103,5 @@
  Çevre değişmedikçe, insanın değişmesine imkân yoktur. -__*Yakup Kadri Karaosmanoğlu, Yaban*__ 25.08.2020 18:05:43 
 
  O kız çarpar insanı, ayrı eder usundan. -__*Nihâl Atsız, Bozkurtlar Diriliyor*__ 25.08.2020 18:05:44 
+
+ Öğrenmek her zaman keyif verir. -__*Cicero, De Oratore 4*__ 25.08.2020 18:05:45 
