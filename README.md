@@ -115,3 +115,5 @@
  Bir saplantıya kapılmış kişi, iyileşmiş olsa da her zaman tekrar hastalanma riski taşır. -__*Stefan Zweig, Satranç*__ 25.08.2020 14:52:00 
 
  Akşam karanlığı çöktü mü insan sabahın taze soluğunu boş yere arar. -__*Machado de Assis, Mezarımdan Yazıyorum*__ 25.08.2020 14:52:12 
+
+ Birini eleştirmeye kalktığında, herkesin seninle aynı imkânlarla dünyaya gelmemiş olduğunu aklına getir. -__*F. Scott Fitzgerald*__ 25.08.2020 14:52:13 
