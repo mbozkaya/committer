@@ -113,3 +113,5 @@
  Şu yakınma ayrıntılı yazılmış bir kitap kadar anlamlıydı. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:46 
 
  İnsanın hiç unutamadığı gerçekler var Louis. Mezar taşının mermerine kazınmış gibi, kalplerimize kazınan gerçekler. -__*Jean-Christophe Grangé*__ 25.08.2020 18:05:46 
+
+ Geçmişin seslerinden başka bir şey işitmeyip,çocukça bir umudu besleyebilmek,ısrarlı bir hayali içimde büyütebilmek için insanlardan uzaklaştım. -__*Amin Maalouf, Semerkand*__ 25.08.2020 18:05:46 
