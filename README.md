@@ -101,3 +101,5 @@
  Gülümsedim, ama hayalim yine aynı ciddi ve kederli ifadeyi korudu. -__*Albert Camus, Yabancı*__ 25.08.2020 14:51:02 
 
  Yağmurlu bir havanın ardından birdenbire önümüze çıkan bir gökkuşağına yetişebilmek gibi beyhude bir telaşa döndü hayat. -__*Tarık Tufan, Kraliçenin Perileri*__ 25.08.2020 14:51:16 
+
+ Ta ruhundan kopan ses, hep aynı kelimeyi tekrarlıyordu: Boşuna! -__*Victor Hugo*__ 25.08.2020 14:51:30 
