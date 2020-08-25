@@ -103,3 +103,5 @@
  Yağmurlu bir havanın ardından birdenbire önümüze çıkan bir gökkuşağına yetişebilmek gibi beyhude bir telaşa döndü hayat. -__*Tarık Tufan, Kraliçenin Perileri*__ 25.08.2020 14:51:16 
 
  Ta ruhundan kopan ses, hep aynı kelimeyi tekrarlıyordu: Boşuna! -__*Victor Hugo*__ 25.08.2020 14:51:30 
+
+ Sanki ben her akşam onunlaymışım gibi bir yalnızlık duyuyorum. -__*Sait Faik Abasıyanık*__ 25.08.2020 14:51:44 
