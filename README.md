@@ -107,3 +107,5 @@
  Öğrenmek her zaman keyif verir. -__*Cicero, De Oratore 4*__ 25.08.2020 18:05:45 
 
  Yer, gök, her şey mevsimini kaybetmiş; bu sonu olmayan çöl üzerinde hiçbir parlaklık ışıltısı yok! -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:45 
+
+ Yeni bir sessizlik başladı, bu kez daha da uzun sürdü. Zaman olağanüstü bir yavaşlıkta seyrediyordu. -__*Enrique Vila-Matas*__ 25.08.2020 18:05:45 
