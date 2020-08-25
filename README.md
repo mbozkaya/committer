@@ -105,3 +105,5 @@
  O kız çarpar insanı, ayrı eder usundan. -__*Nihâl Atsız, Bozkurtlar Diriliyor*__ 25.08.2020 18:05:44 
 
  Öğrenmek her zaman keyif verir. -__*Cicero, De Oratore 4*__ 25.08.2020 18:05:45 
+
+ Yer, gök, her şey mevsimini kaybetmiş; bu sonu olmayan çöl üzerinde hiçbir parlaklık ışıltısı yok! -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:45 
