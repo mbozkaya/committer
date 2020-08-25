@@ -121,3 +121,7 @@
  Sadece o kadarını diyebildim. Bazı acıların çünkü, cümlesi olmaz. Sözcükler, kimi manaların yükünü kaldıramaz. -__*Nermin Yıldırım*__ 25.08.2020 14:52:26 
 
  Ne diyeyim, dilerim ihtiyacı olan birine gidiyordur bizden çaldıkları umut! Dünya adaletsiz çocuk! Dünya zorba. -__*Nâzım Hikmet Ran*__ 25.08.2020 14:52:26 
+
+ Kelime; kelime acıtır. Hacmi ağırlığı, dokusu vardır. Tene değer ve keser. Öldürebilir de. -__*Nazan Bekiroğlu, Kelime Defteri*__ 25.08.2020 14:52:40 
+
+ Hayallerimizde kendimiz olmanın yüküne yer yok. -__*Tim Parks, Kader*__ 25.08.2020 14:52:40 
