@@ -127,3 +127,5 @@
  Hayallerimizde kendimiz olmanın yüküne yer yok. -__*Tim Parks, Kader*__ 25.08.2020 14:52:40 
 
  İlgiler gündelik giysiyler gibi eski inceliksiz. -__*Gülten Akın, Kestım Kara Saçlarımı*__ 25.08.2020 14:52:54 
+
+ Gülleri ve bülbülleri göremeyip gün boyu evinde oturan adam dünyanın kendisini hiç görebilir mi? -__*İhsan Oktay Anar, Puslu Kıtalar Atlası*__ 25.08.2020 14:53:07 
