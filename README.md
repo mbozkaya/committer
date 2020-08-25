@@ -97,3 +97,5 @@
 
  #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
  Ses tonlamalarına takılırdım. Sesler her şeyi söylerdi. -__*İlhami Algör, Fakat Müzeyyen Bu Derin Bir Tutku*__ 25.08.2020 14:50:48 
+
+ Gülümsedim, ama hayalim yine aynı ciddi ve kederli ifadeyi korudu. -__*Albert Camus, Yabancı*__ 25.08.2020 14:51:02 
