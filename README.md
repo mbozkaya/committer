@@ -113,3 +113,5 @@
  Ve oturdu mu bir masaya hakkını verir çay içmenin. -__*Cahit Zarifoğlu, İşaret Çocukları*__ 25.08.2020 14:51:58 
 
  Bir saplantıya kapılmış kişi, iyileşmiş olsa da her zaman tekrar hastalanma riski taşır. -__*Stefan Zweig, Satranç*__ 25.08.2020 14:52:00 
+
+ Akşam karanlığı çöktü mü insan sabahın taze soluğunu boş yere arar. -__*Machado de Assis, Mezarımdan Yazıyorum*__ 25.08.2020 14:52:12 
