@@ -129,3 +129,5 @@
  Derin bir düşünceyi kavramak, o düşünceyi kavradığımız anda derin bir düşünceye sahip olmaktır. -__*Cemil Meriç, Bu Ülke*__ 27.08.2020 09:09:22 
 
  Rabbim gör, Rabbim duy,  Rabbim bağışla. -__*Ah Muhsin Ünlü, Gidiyorum Bu*__ 27.08.2020 09:09:22 
+
+ Kafamdan atamıyorum. Hep aklıma geliyor, hem de en tuhaf zamanlarda. Duştan çıkarken, sokakta yürürken, gece yatağıma yatarken; bilinçli olarak bir şey düşünmediğim zamanlarda. -__*Paul Auster*__ 27.08.2020 09:09:23 
