@@ -121,3 +121,7 @@
  İki hasta kadar birbirine yakın hiç kimse yoktur. -__*Peyami Safa, Dokuzuncu Hariciye Koğuşu*__ 27.08.2020 09:09:19 
 
  Onu anlatan kelimeler ise, bazı anlamlara gelmiyor artık. -__*H. Tuğberk Bahadırtürk*__ 27.08.2020 09:09:20 
+
+ Kapının eşiğindeki halim gözümün önünde beliriyor. O içerde, eli kapı kolunda. Ona sormak istediğim o kadar çok şey var ki. -__*Roberto Bolaño, Tılsım*__ 27.08.2020 09:09:21 
+
+ Yalnız bir insanın hayalinde biriktirdiklerini hiçbir taze tutku, hiçbir yeni ateş yok edemez. -__*Fitzgerald*__ 27.08.2020 09:09:21 
