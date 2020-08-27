@@ -127,3 +127,5 @@
  Yalnız bir insanın hayalinde biriktirdiklerini hiçbir taze tutku, hiçbir yeni ateş yok edemez. -__*Fitzgerald*__ 27.08.2020 09:09:21 
 
  Derin bir düşünceyi kavramak, o düşünceyi kavradığımız anda derin bir düşünceye sahip olmaktır. -__*Cemil Meriç, Bu Ülke*__ 27.08.2020 09:09:22 
+
+ Rabbim gör, Rabbim duy,  Rabbim bağışla. -__*Ah Muhsin Ünlü, Gidiyorum Bu*__ 27.08.2020 09:09:22 
