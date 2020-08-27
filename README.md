@@ -131,3 +131,5 @@
  Rabbim gör, Rabbim duy,  Rabbim bağışla. -__*Ah Muhsin Ünlü, Gidiyorum Bu*__ 27.08.2020 09:09:22 
 
  Kafamdan atamıyorum. Hep aklıma geliyor, hem de en tuhaf zamanlarda. Duştan çıkarken, sokakta yürürken, gece yatağıma yatarken; bilinçli olarak bir şey düşünmediğim zamanlarda. -__*Paul Auster*__ 27.08.2020 09:09:23 
+
+ Ülkenin hangi yanına dokunsak altından ağlayacak bir yara çıkıyor, farkında mısın? -__*Tarık Tufan, Beni Onlara Verne*__ 27.08.2020 09:09:23 
