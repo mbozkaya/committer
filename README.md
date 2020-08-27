@@ -115,3 +115,9 @@
  İnsanın hiç unutamadığı gerçekler var Louis. Mezar taşının mermerine kazınmış gibi, kalplerimize kazınan gerçekler. -__*Jean-Christophe Grangé*__ 25.08.2020 18:05:46 
 
  Geçmişin seslerinden başka bir şey işitmeyip,çocukça bir umudu besleyebilmek,ısrarlı bir hayali içimde büyütebilmek için insanlardan uzaklaştım. -__*Amin Maalouf, Semerkand*__ 25.08.2020 18:05:46 
+
+
+ #### 2. Hafta 12. Gün M Harfi Oluşturuluyor.
+ İki hasta kadar birbirine yakın hiç kimse yoktur. -__*Peyami Safa, Dokuzuncu Hariciye Koğuşu*__ 27.08.2020 09:09:19 
+
+ Onu anlatan kelimeler ise, bazı anlamlara gelmiyor artık. -__*H. Tuğberk Bahadırtürk*__ 27.08.2020 09:09:20 
