@@ -125,3 +125,5 @@
  Kapının eşiğindeki halim gözümün önünde beliriyor. O içerde, eli kapı kolunda. Ona sormak istediğim o kadar çok şey var ki. -__*Roberto Bolaño, Tılsım*__ 27.08.2020 09:09:21 
 
  Yalnız bir insanın hayalinde biriktirdiklerini hiçbir taze tutku, hiçbir yeni ateş yok edemez. -__*Fitzgerald*__ 27.08.2020 09:09:21 
+
+ Derin bir düşünceyi kavramak, o düşünceyi kavradığımız anda derin bir düşünceye sahip olmaktır. -__*Cemil Meriç, Bu Ülke*__ 27.08.2020 09:09:22 
