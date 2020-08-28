@@ -154,3 +154,5 @@
  Çocukluk hayalinin görüntüsüyle bu adamın görüntüsü birbirinin aynısı. Tek bir farkla, o felçli değil ve burada onu çevreleyen yaseminlerle dolu bir bahçe yok. -__*Unica Zürn, Yasemin Adam*__ 28.08.2020 22:51:37 
 
  Hani, o bırakıp giderken seni bu öksüz tavrını takmayacaktın? -__*Orhan Seyfi Orhon, Veda*__ 28.08.2020 22:51:38 
+
+ Hiçbir şeyin sahicisi rahatça bulunmuyor. -__*Kemal Tahir, Esir Şehrin İnsanları*__ 28.08.2020 22:51:39 
