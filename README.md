@@ -93,3 +93,7 @@
  Sevgili Dost, insan her zaman aynı şeyleri görürse, bunu yaşamanın tabii bir parçası gibi görmeye başlarmış, aykırı olsa bile. -__*A. Ali Ural, Posta Kutusundaki Mızıka*__ 24.08.2020 23:05:27 
 
  Bütün güzel laflardan ve hoş insanlardan sıkılan bu mahlukları, birbirlerinin sessiz mevcudiyeti, yorgunluk verecek kadar doyuruyordu. -__*Sabahattin Ali, Kuyucaklı Yusuf*__ 24.08.2020 23:05:40 
+
+
+ #### 2. Hafta 13. Gün M Harfi Oluşturuluyor.
+ Hafif çarpık yüzünde, beni iyiden iyiye süzen, ne ifade ettiği kestirilemeyen parıl parıl iki gözden başka bir şey görmüyordum. Sanki gözlerimi kendime çevirmişim gibi tuhaf bir duyguya kapıldım. -__*Albert Camus, Yabancı*__ 28.08.2020 22:50:57 
