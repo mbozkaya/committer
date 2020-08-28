@@ -95,5 +95,50 @@
  Bütün güzel laflardan ve hoş insanlardan sıkılan bu mahlukları, birbirlerinin sessiz mevcudiyeti, yorgunluk verecek kadar doyuruyordu. -__*Sabahattin Ali, Kuyucaklı Yusuf*__ 24.08.2020 23:05:40 
 
 
+<<<<<<< HEAD
  #### 2. Hafta 13. Gün M Harfi Oluşturuluyor.
  Hafif çarpık yüzünde, beni iyiden iyiye süzen, ne ifade ettiği kestirilemeyen parıl parıl iki gözden başka bir şey görmüyordum. Sanki gözlerimi kendime çevirmişim gibi tuhaf bir duyguya kapıldım. -__*Albert Camus, Yabancı*__ 28.08.2020 22:50:57 
+=======
+
+
+ #### 2. Hafta 10. Gün M Harfi Oluşturuluyor.
+ İnsanları yüzlerinden okumaya bayılıyorum. -__*Mustafa Kutlu, Ya Tahammül Ya Sefer*__ 25.08.2020 18:05:37 
+
+ Çevre değişmedikçe, insanın değişmesine imkân yoktur. -__*Yakup Kadri Karaosmanoğlu, Yaban*__ 25.08.2020 18:05:43 
+
+ O kız çarpar insanı, ayrı eder usundan. -__*Nihâl Atsız, Bozkurtlar Diriliyor*__ 25.08.2020 18:05:44 
+
+ Öğrenmek her zaman keyif verir. -__*Cicero, De Oratore 4*__ 25.08.2020 18:05:45 
+
+ Yer, gök, her şey mevsimini kaybetmiş; bu sonu olmayan çöl üzerinde hiçbir parlaklık ışıltısı yok! -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:45 
+
+ Yeni bir sessizlik başladı, bu kez daha da uzun sürdü. Zaman olağanüstü bir yavaşlıkta seyrediyordu. -__*Enrique Vila-Matas*__ 25.08.2020 18:05:45 
+
+ Şu yakınma ayrıntılı yazılmış bir kitap kadar anlamlıydı. -__*Halid Ziya Uşaklıgil, Mai ve Siyah*__ 25.08.2020 18:05:46 
+
+ İnsanın hiç unutamadığı gerçekler var Louis. Mezar taşının mermerine kazınmış gibi, kalplerimize kazınan gerçekler. -__*Jean-Christophe Grangé*__ 25.08.2020 18:05:46 
+
+ Geçmişin seslerinden başka bir şey işitmeyip,çocukça bir umudu besleyebilmek,ısrarlı bir hayali içimde büyütebilmek için insanlardan uzaklaştım. -__*Amin Maalouf, Semerkand*__ 25.08.2020 18:05:46 
+
+
+ #### 2. Hafta 12. Gün M Harfi Oluşturuluyor.
+ İki hasta kadar birbirine yakın hiç kimse yoktur. -__*Peyami Safa, Dokuzuncu Hariciye Koğuşu*__ 27.08.2020 09:09:19 
+
+ Onu anlatan kelimeler ise, bazı anlamlara gelmiyor artık. -__*H. Tuğberk Bahadırtürk*__ 27.08.2020 09:09:20 
+
+ Kapının eşiğindeki halim gözümün önünde beliriyor. O içerde, eli kapı kolunda. Ona sormak istediğim o kadar çok şey var ki. -__*Roberto Bolaño, Tılsım*__ 27.08.2020 09:09:21 
+
+ Yalnız bir insanın hayalinde biriktirdiklerini hiçbir taze tutku, hiçbir yeni ateş yok edemez. -__*Fitzgerald*__ 27.08.2020 09:09:21 
+
+ Derin bir düşünceyi kavramak, o düşünceyi kavradığımız anda derin bir düşünceye sahip olmaktır. -__*Cemil Meriç, Bu Ülke*__ 27.08.2020 09:09:22 
+
+ Rabbim gör, Rabbim duy,  Rabbim bağışla. -__*Ah Muhsin Ünlü, Gidiyorum Bu*__ 27.08.2020 09:09:22 
+
+ Kafamdan atamıyorum. Hep aklıma geliyor, hem de en tuhaf zamanlarda. Duştan çıkarken, sokakta yürürken, gece yatağıma yatarken; bilinçli olarak bir şey düşünmediğim zamanlarda. -__*Paul Auster*__ 27.08.2020 09:09:23 
+
+ Ülkenin hangi yanına dokunsak altından ağlayacak bir yara çıkıyor, farkında mısın? -__*Tarık Tufan, Beni Onlara Verne*__ 27.08.2020 09:09:23 
+
+ Yaşasın! Ne kadar da ideolojik yaklaşıyoruz birbirimize -__*Ah Muhsin Ünlü, Gidiyorum Bu*__ 27.08.2020 09:09:24 
+>>>>>>> 6add12d3bca850a61af0d69b014cc267b55c1877
+
+ Evet, yolun sonunda iki adam, şiirin bile fayda etmediği çünkü şiir çaredir bir bakıma ölüme, özellikle de son dize ve her şeye çengel atan kafiye. -__*Barış Bıçakçı, Sinek Isırıklarının Müellifi*__ 28.08.2020 22:51:32 
