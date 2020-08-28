@@ -142,3 +142,5 @@
 >>>>>>> 6add12d3bca850a61af0d69b014cc267b55c1877
 
  Evet, yolun sonunda iki adam, şiirin bile fayda etmediği çünkü şiir çaredir bir bakıma ölüme, özellikle de son dize ve her şeye çengel atan kafiye. -__*Barış Bıçakçı, Sinek Isırıklarının Müellifi*__ 28.08.2020 22:51:32 
+
+ Yakınlarından söz etmezdi pek; çöküntü altında toptan ölümlerinin acısını yenilememek için belki. -__*Yusuf Atılgan, Anayurt Oteli*__ 28.08.2020 22:51:33 
