@@ -146,3 +146,5 @@
  Yakınlarından söz etmezdi pek; çöküntü altında toptan ölümlerinin acısını yenilememek için belki. -__*Yusuf Atılgan, Anayurt Oteli*__ 28.08.2020 22:51:33 
 
  Bu gülüşü bir daha hiç göremeyeceğimi düşünmeye bile dayanamayacağımı anlamıştım. Bu gülüş benim için çölün ortasında bir pınar gibiydi. -__*Antoine De Saint-Exupéry, Küçük Prens*__ 28.08.2020 22:51:34 
+
+ İnsanlar ihtiyatsızca ağızlarından çıkan bir kaç cesur söz yüzünden ne korkunç bedel ödüyorlardı. -__*Vasili Grossman, Yaşam ve Yazgı*__ 28.08.2020 22:51:35 
