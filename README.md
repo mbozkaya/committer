@@ -144,3 +144,5 @@
  Evet, yolun sonunda iki adam, şiirin bile fayda etmediği çünkü şiir çaredir bir bakıma ölüme, özellikle de son dize ve her şeye çengel atan kafiye. -__*Barış Bıçakçı, Sinek Isırıklarının Müellifi*__ 28.08.2020 22:51:32 
 
  Yakınlarından söz etmezdi pek; çöküntü altında toptan ölümlerinin acısını yenilememek için belki. -__*Yusuf Atılgan, Anayurt Oteli*__ 28.08.2020 22:51:33 
+
+ Bu gülüşü bir daha hiç göremeyeceğimi düşünmeye bile dayanamayacağımı anlamıştım. Bu gülüş benim için çölün ortasında bir pınar gibiydi. -__*Antoine De Saint-Exupéry, Küçük Prens*__ 28.08.2020 22:51:34 
