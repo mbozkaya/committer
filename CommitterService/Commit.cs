@@ -22,7 +22,7 @@ namespace CommitterService
         private string PushBachtFileName = "Batch\\push.bat";
         private string RepositoryPath = "c:\\Repository\\Committer\\readme.md";
         private string QuoteUrl = "http://extensions.biryudumkitap.com/quote";
-        private int BeginDayOfYear = 229;
+        private int BeginDayOfYear = 243;
         private Dictionary<int, Dictionary<int, TodayWord>> MBOZKAYAYearly = new Dictionary<int, Dictionary<int, TodayWord>>
             {
                 {0, new Dictionary<int, TodayWord>
